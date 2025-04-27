@@ -21,10 +21,10 @@
 במערכת זו השתמשנו בכמה תרשימים חשובים:
 
 1. **ERD (Entity-Relationship Diagram)** - תרשים המתאר את הקשרים בין הישויות במערכת.
-   ![ERD](DBProject/328301981_321918484/שלב א/ERD.png)
+   ![ERD](ERD.png)
 
 2. **DSD (Data Structure Diagram)** - תרשים המתאר את מבנה הנתונים במערכת.
-   ![DSD](DBProject/328301981_321918484/שלב א/DSD.png)
+   ![DSD](DSD.png)
 
 ---
 
