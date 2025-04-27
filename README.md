@@ -39,17 +39,19 @@
 
 להלן צילומי מסך שמדגימים את תהליך הגיבוי והשחזור של המערכת:
 
+
 ### 1. **צילומי מסך של הגיבוי:**
+- **OPEN BACKUP:** פותחים את קובץ הגיבוי.
+   ![OPEN BACKUP](DBProject/328301981_321918484/שלב%20א/OPENBACKUP.png)
+  - **CHOOSENAME:** בוחרים את קובץ הגיבוי.
+   ![CHOOSENAME](DBProject/328301981_321918484/שלב%20א/CHOOSENAME.png)
 - **BACKUP:** כאן ניתן לראות את תהליך הגיבוי.
    ![BACKUP](DBProject/328301981_321918484/שלב%20א/BACKUP.png)
 - **SUCCESSFUL BACKUP:** לאחר ביצוע הגיבוי, המסך מראה שהגיבוי הצליח.
    ![BACKUP SUCCESS](DBProject/328301981_321918484/שלב%20א/BACKUPSECCESS.png)
 
 ### 2. **צילומי מסך של שחזור הנתונים:**
-- **CHOOSENAME:** בוחרים את קובץ הגיבוי לשחזור.
-   ![CHOOSENAME](DBProject/328301981_321918484/שלב%20א/CHOOSENAME.png)
-- **OPEN BACKUP:** פותחים את קובץ הגיבוי לשחזור.
-   ![OPEN BACKUP](DBProject/328301981_321918484/שלב%20א/OPENBACKUP.png)
+
 - **RESTORE:** תהליך שחזור הנתונים.
    ![RESTORE](DBProject/328301981_321918484/שלב%20א/RESTORE.png)
 - **SUCCESSFUL RESTORE:** השחזור הושלם בהצלחה.
@@ -61,7 +63,7 @@
 
 במסגרת הפרויקט, יצרנו את הפקודות הבסיסיות לניהול הנתונים במסד הנתונים:
 
-## 1. **`createTables.sql`** – יצירת הטבלאות במסד הנתונים
+### 1. **`createTables.sql`** – יצירת הטבלאות במסד הנתונים
 הפקודה הזו יוצרת את כל הטבלאות הדרושות למערכת:
 
 ```sql
@@ -135,8 +137,9 @@ CREATE TABLE part_of_order
   FOREIGN KEY (Dish_ID) REFERENCES Dish(Dish_ID)
 );
 
+---
 
-## 2. **`dropTables.sql`** – מחיקת הטבלאות
+### 2. **`dropTables.sql`** – מחיקת הטבלאות
 הפקודה הזו תמחק את כל הטבלאות שנוצרו:
 
 ```sql
@@ -148,6 +151,7 @@ DROP TABLE Waiter;
 DROP TABLE RestTable;
 DROP TABLE Dish;
 
+---
 
 ### 3. **`insertTables.sql`** – הכנסת נתונים לטבלאות
 
