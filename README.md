@@ -41,19 +41,19 @@
 
 ### 1. **צילומי מסך של הגיבוי:**
 - **BACKUP:** כאן ניתן לראות את תהליך הגיבוי.
-   ![BACKUP](BACKUP.png)
+   ![BACKUP](DBProject/328301981_321918484/שלב%20א/BACKUP.png)
 - **SUCCESSFUL BACKUP:** לאחר ביצוע הגיבוי, המסך מראה שהגיבוי הצליח.
-   ![BACKUP SUCCESS](BACKUPSECCESS.png)
+   ![BACKUP SUCCESS](DBProject/328301981_321918484/שלב%20א/BACKUPSECCESS.png)
 
 ### 2. **צילומי מסך של שחזור הנתונים:**
 - **CHOOSENAME:** בוחרים את קובץ הגיבוי לשחזור.
-   ![CHOOSENAME](CHOOSENAME.png)
+   ![CHOOSENAME](DBProject/328301981_321918484/שלב%20א/CHOOSENAME.png)
 - **OPEN BACKUP:** פותחים את קובץ הגיבוי לשחזור.
-   ![OPEN BACKUP](OPENBACKUP.png)
+   ![OPEN BACKUP](DBProject/328301981_321918484/שלב%20א/OPENBACKUP.png)
 - **RESTORE:** תהליך שחזור הנתונים.
-   ![RESTORE](RESTORE.png)
+   ![RESTORE](DBProject/328301981_321918484/שלב%20א/RESTORE.png)
 - **SUCCESSFUL RESTORE:** השחזור הושלם בהצלחה.
-   ![RESTORE SUCCESS](RESTORESUCSSES.png)
+   ![RESTORE SUCCESS](DBProject/328301981_321918484/שלב%20א/RESTORESUCSSES.png)
 
 ---
 
@@ -61,7 +61,7 @@
 
 במסגרת הפרויקט, יצרנו את הפקודות הבסיסיות לניהול הנתונים במסד הנתונים:
 
-### 1. **`createTables.sql`** – יצירת הטבלאות במסד הנתונים
+## 1. **`createTables.sql`** – יצירת הטבלאות במסד הנתונים
 הפקודה הזו יוצרת את כל הטבלאות הדרושות למערכת:
 
 ```sql
@@ -136,7 +136,7 @@ CREATE TABLE part_of_order
 );
 
 
-### 2. **`dropTables.sql`** – מחיקת הטבלאות
+## 2. **`dropTables.sql`** – מחיקת הטבלאות
 הפקודה הזו תמחק את כל הטבלאות שנוצרו:
 
 ```sql
@@ -151,8 +151,7 @@ DROP TABLE Dish;
 
 ### 3. **`insertTables.sql`** – הכנסת נתונים לטבלאות
 
-הפקודה הזו מכניסה נתונים לדוגמה לכל אחת מהטבלאות שנוצרו:
-
+הפקודה הזו מכניסה נתונים לדוגמה לכל אחת מהטבלאות שנוצרו
 ```sql
 -- הכנסת נתונים לטבלת Dish
 INSERT INTO Dish (Category, Price, Dish_ID, Dish_Name, Description, time_to_make)
