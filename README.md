@@ -2,7 +2,7 @@
 
 ## מגישים:
 👨‍💻 **מאור לוי** (ת.ז: 328301981) <a href="https://www.linkedin.com/in/maor-lev?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">
-    <img src="DBProject/328301981_321918484/שלב%20א/לינדקאין.png" width="100" />
+    <img src="DBProject/328301981_321918484/שלב%20א/לינדקאין.png" width="50" />
 </a>
 
 
