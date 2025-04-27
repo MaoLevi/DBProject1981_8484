@@ -1,12 +1,10 @@
 # 🌟 **DBProject_1981_8484 - מערכת לניהול מסד נתונים** 🌟
 
 ## מגישים:
-👨‍💻 **מאור לוי** (ת.ז: 328301981)<a href="https://www.linkedin.com/in/maor-lev?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">
-    <img src="DBProject/328301981_321918484/שלב%20א/לינדקאין.png" width="25" />
+👨‍💻 **מאור לוי** (ת.ז: 328301981)<a href="https://www.linkedin.com/in/maor-lev?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><img src="DBProject/328301981_321918484/שלב%20א/לינדקאין.png" width="25" />
 </a>
 
-👨‍💻 **ארי עוז** (ת.ז: 321918484)<a href="http://www.linkedin.com/in/ari-oz-0a555b274">
-    <img src="DBProject/328301981_321918484/שלב%20א/לינדקאין.png" width="25" />
+👨‍💻 **ארי עוז** (ת.ז: 321918484)<a href="http://www.linkedin.com/in/ari-oz-0a555b274"><img src="DBProject/328301981_321918484/שלב%20א/לינדקאין.png" width="25" />
 </a>
 
 
