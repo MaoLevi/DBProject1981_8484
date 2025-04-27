@@ -1,0 +1,401 @@
+Price,Dish_ID,Dish_Name,time_to_make,Category,Description
+637.88,1,luctus cum sociis,8:44 AM,Dessert,elit proin interdum mauris non ligula pellentesque ultrices phasellus id sapien in sapien iaculis congue vivamus
+825.28,2,congue etiam,8:38 AM,Appetizer,dapibus duis at velit eu est congue elementum in hac habitasse platea dictumst morbi vestibulum velit
+451.16,3,nisl duis,8:17 PM,Dessert,convallis duis consequat dui nec nisi volutpat eleifend donec ut dolor
+470.27,4,lectus aliquam,11:23 PM,Dessert,vivamus vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis parturient montes
+245.61,5,convallis eget,3:14 PM,Appetizer,augue vestibulum rutrum rutrum neque aenean auctor gravida sem praesent id massa id nisl venenatis lacinia aenean sit
+681.23,6,"",11:58 PM,Dessert,fusce consequat nulla nisl nunc nisl duis bibendum felis sed interdum venenatis
+356.24,7,vivamus tortor duis,3:14 AM,Appetizer,at velit eu est congue elementum in hac habitasse platea
+794.83,8,"",3:24 PM,Dessert,ac nibh fusce lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend quam
+275.0,9,"",9:36 PM,Appetizer,curabitur convallis duis consequat dui nec nisi volutpat eleifend donec ut dolor morbi vel lectus
+522.34,10,ornare,9:21 AM,Dessert,rutrum nulla tellus in sagittis dui vel nisl duis ac nibh fusce lacus
+689.63,11,est,7:14 AM,Dessert,duis aliquam convallis nunc proin at turpis a pede posuere nonummy integer non velit donec diam neque vestibulum eget
+413.71,12,"",7:45 PM,Dessert,convallis nulla neque libero convallis eget eleifend luctus ultricies eu nibh quisque id justo sit
+177.75,13,felis,3:44 AM,Main Course,curabitur at ipsum ac tellus semper interdum mauris ullamcorper purus sit amet nulla quisque
+745.36,14,pellentesque eget,10:03 PM,Dessert,congue risus semper porta volutpat quam pede lobortis ligula sit amet eleifend pede libero quis orci nullam molestie
+623.31,15,eget elit sodales,12:11 PM,Appetizer,augue aliquam erat volutpat in congue etiam justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam
+128.26,16,aenean lectus,11:09 AM,Appetizer,semper porta volutpat quam pede lobortis ligula sit amet eleifend pede libero quis orci nullam molestie nibh
+138.08,17,quis orci,5:11 PM,Dessert,in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam erat
+609.81,18,penatibus,12:01 AM,Main Course,tristique est et tempus semper est quam pharetra magna ac consequat metus sapien ut nunc vestibulum ante
+283.4,19,"",9:38 PM,Main Course,molestie nibh in lectus pellentesque at nulla suspendisse potenti cras in purus eu magna vulputate luctus cum sociis natoque penatibus
+194.94,20,"",2:15 AM,Main Course,aliquam convallis nunc proin at turpis a pede posuere nonummy integer non velit
+66.46,21,faucibus,2:38 AM,Dessert,nec molestie sed justo pellentesque viverra pede ac diam cras
+147.1,22,"",5:39 PM,Dessert,commodo placerat praesent blandit nam nulla integer pede justo lacinia eget
+756.11,23,nullam sit,2:46 AM,Main Course,luctus cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus
+395.04,24,"",7:53 AM,Dessert,eu massa donec dapibus duis at velit eu est congue elementum in hac habitasse platea dictumst morbi vestibulum velit
+444.0,25,"",12:15 PM,Appetizer,interdum in ante vestibulum ante ipsum primis in faucibus orci
+599.07,26,ut,8:16 AM,Main Course,adipiscing lorem vitae mattis nibh ligula nec sem duis aliquam convallis nunc proin at turpis a pede posuere nonummy
+830.58,27,semper est,5:51 PM,Dessert,morbi porttitor lorem id ligula suspendisse ornare consequat lectus in est risus auctor sed tristique in tempus
+980.72,28,dui nec nisi,8:59 PM,Main Course,quis odio consequat varius integer ac leo pellentesque ultrices mattis odio donec vitae nisi nam ultrices
+459.74,29,"",2:52 PM,Main Course,duis bibendum felis sed interdum venenatis turpis enim blandit mi in porttitor pede justo eu massa donec dapibus duis
+79.74,30,velit eu,4:28 AM,Dessert,vestibulum ac est lacinia nisi venenatis tristique fusce congue diam id ornare imperdiet sapien
+894.34,31,sem mauris laoreet,12:59 PM,Dessert,non velit nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus
+917.15,32,nam ultrices,7:43 AM,Appetizer,aenean auctor gravida sem praesent id massa id nisl venenatis lacinia aenean sit amet justo morbi ut odio
+82.96,33,in,4:11 PM,Dessert,et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus at turpis donec posuere
+498.27,34,sapien dignissim vestibulum,2:12 PM,Appetizer,eu est congue elementum in hac habitasse platea dictumst morbi vestibulum velit id
+729.11,35,"",7:38 AM,Appetizer,duis faucibus accumsan odio curabitur convallis duis consequat dui nec nisi volutpat eleifend donec ut dolor morbi
+66.3,36,sit amet diam,3:11 PM,Main Course,erat tortor sollicitudin mi sit amet lobortis sapien sapien non mi integer ac neque duis bibendum
+271.41,37,pretium,11:55 AM,Appetizer,id sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget
+20.69,38,in felis,3:01 AM,Appetizer,mi in porttitor pede justo eu massa donec dapibus duis at
+692.61,39,"",9:01 PM,Dessert,dapibus dolor vel est donec odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac
+188.0,40,montes nascetur ridiculus,11:00 PM,Dessert,elementum eu interdum eu tincidunt in leo maecenas pulvinar lobortis est
+471.85,41,nulla,2:15 PM,Dessert,tellus in sagittis dui vel nisl duis ac nibh fusce lacus purus aliquet at feugiat non pretium quis lectus suspendisse
+903.05,42,justo,11:49 AM,Dessert,augue vel accumsan tellus nisi eu orci mauris lacinia sapien quis libero nullam sit amet turpis elementum
+414.04,43,faucibus cursus urna,4:23 AM,Appetizer,morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui vel nisl duis ac nibh fusce lacus purus
+962.95,44,"",9:42 PM,Main Course,turpis eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan tortor quis
+32.41,45,ipsum dolor sit,7:23 AM,Dessert,faucibus orci luctus et ultrices posuere cubilia curae donec pharetra magna
+722.63,46,sapien cum,9:07 AM,Appetizer,ut ultrices vel augue vestibulum ante ipsum primis in faucibus orci luctus et
+347.98,47,integer ac,3:11 AM,Dessert,dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis molestie lorem
+310.34,48,morbi,12:22 AM,Main Course,urna ut tellus nulla ut erat id mauris vulputate elementum nullam varius nulla facilisi cras non velit nec
+926.3,49,ipsum ac,6:34 PM,Main Course,dui luctus rutrum nulla tellus in sagittis dui vel nisl duis ac nibh fusce lacus purus aliquet
+939.01,50,"",10:22 AM,Dessert,at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer
+10.47,51,aliquam erat volutpat,12:03 AM,Dessert,libero nam dui proin leo odio porttitor id consequat in consequat ut nulla sed
+655.5,52,"",4:11 PM,Main Course,amet turpis elementum ligula vehicula consequat morbi a ipsum integer a
+614.36,53,est et tempus,6:36 PM,Appetizer,ipsum praesent blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam
+579.5,54,commodo vulputate,11:42 PM,Appetizer,tristique est et tempus semper est quam pharetra magna ac consequat
+982.43,55,"",9:21 PM,Dessert,pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna ut
+424.6,56,"",6:43 PM,Appetizer,sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar
+60.27,57,"",3:43 AM,Dessert,elementum nullam varius nulla facilisi cras non velit nec nisi vulputate
+553.32,58,"",3:15 AM,Main Course,magnis dis parturient montes nascetur ridiculus mus etiam vel augue vestibulum rutrum rutrum neque aenean auctor
+934.06,59,odio,8:45 PM,Main Course,montes nascetur ridiculus mus vivamus vestibulum sagittis sapien cum sociis natoque penatibus
+647.5,60,aenean fermentum,5:01 AM,Dessert,purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend
+77.56,61,tortor id nulla,1:58 AM,Main Course,nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus vel nulla
+404.72,62,in leo,1:00 PM,Dessert,morbi vestibulum velit id pretium iaculis diam erat fermentum justo nec condimentum neque sapien placerat ante
+186.1,63,nec,7:53 AM,Appetizer,nulla pede ullamcorper augue a suscipit nulla elit ac nulla sed vel enim sit
+196.2,64,interdum venenatis,6:37 PM,Appetizer,suscipit nulla elit ac nulla sed vel enim sit amet nunc viverra dapibus nulla suscipit ligula in lacus curabitur at
+483.96,65,interdum venenatis turpis,7:47 AM,Dessert,justo nec condimentum neque sapien placerat ante nulla justo aliquam quis turpis eget elit sodales scelerisque mauris sit amet eros
+641.79,66,lobortis convallis,11:41 AM,Dessert,viverra eget congue eget semper rutrum nulla nunc purus phasellus in felis donec
+266.19,67,"",4:07 AM,Appetizer,est risus auctor sed tristique in tempus sit amet sem fusce
+374.98,68,ipsum aliquam,6:03 AM,Appetizer,eget orci vehicula condimentum curabitur in libero ut massa volutpat convallis morbi
+921.96,69,quis,4:34 PM,Appetizer,semper est quam pharetra magna ac consequat metus sapien ut nunc vestibulum ante ipsum primis in faucibus orci luctus et
+387.56,70,eget elit,2:56 AM,Appetizer,neque aenean auctor gravida sem praesent id massa id nisl venenatis lacinia aenean sit
+523.97,71,donec posuere,9:40 AM,Dessert,amet consectetuer adipiscing elit proin interdum mauris non ligula pellentesque ultrices phasellus id sapien in sapien iaculis congue
+350.45,72,ut,2:44 PM,Appetizer,turpis nec euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula
+97.27,73,"",10:57 AM,Main Course,eros suspendisse accumsan tortor quis turpis sed ante vivamus tortor duis mattis egestas metus aenean fermentum donec ut mauris
+602.4,74,"",5:53 PM,Main Course,pede justo eu massa donec dapibus duis at velit eu est congue elementum in hac habitasse platea
+563.8,75,porttitor,9:39 PM,Appetizer,id ornare imperdiet sapien urna pretium nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in congue
+194.09,76,"",3:11 AM,Appetizer,tristique est et tempus semper est quam pharetra magna ac consequat metus sapien ut nunc vestibulum ante
+776.55,77,et ultrices,9:03 PM,Main Course,dui proin leo odio porttitor id consequat in consequat ut nulla sed accumsan felis ut at dolor quis odio
+654.49,78,"",1:51 AM,Appetizer,odio odio elementum eu interdum eu tincidunt in leo maecenas pulvinar lobortis est phasellus sit amet
+939.59,79,"",12:58 AM,Appetizer,augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida
+901.73,80,"",6:22 PM,Main Course,tempus vivamus in felis eu sapien cursus vestibulum proin eu mi nulla ac enim in tempor
+804.24,81,"",6:05 PM,Main Course,in eleifend quam a odio in hac habitasse platea dictumst
+588.44,82,"",9:32 PM,Appetizer,fusce consequat nulla nisl nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit mi in porttitor pede justo
+806.56,83,tincidunt ante vel,10:33 PM,Main Course,amet diam in magna bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt
+483.26,84,at,8:33 PM,Appetizer,egestas metus aenean fermentum donec ut mauris eget massa tempor convallis nulla
+787.44,85,amet eleifend,9:17 AM,Dessert,luctus et ultrices posuere cubilia curae donec pharetra magna vestibulum aliquet ultrices
+798.15,86,elementum eu,6:23 PM,Appetizer,posuere cubilia curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit amet lobortis
+483.09,87,cras,12:37 AM,Main Course,tempus vivamus in felis eu sapien cursus vestibulum proin eu mi nulla ac enim in tempor turpis nec
+52.59,88,morbi odio odio,7:45 PM,Main Course,nascetur ridiculus mus etiam vel augue vestibulum rutrum rutrum neque aenean auctor
+485.45,89,maecenas,12:06 PM,Dessert,vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti
+690.12,90,molestie sed justo,12:14 PM,Appetizer,ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus dolor vel est donec odio
+868.78,91,in faucibus,5:01 AM,Appetizer,lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur in libero ut massa volutpat convallis morbi
+130.11,92,eget,7:04 AM,Main Course,lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum mauris non ligula pellentesque ultrices phasellus
+918.38,93,"",9:16 PM,Main Course,velit id pretium iaculis diam erat fermentum justo nec condimentum neque sapien placerat ante nulla
+968.41,94,"",5:02 AM,Dessert,iaculis diam erat fermentum justo nec condimentum neque sapien placerat ante nulla justo aliquam quis
+244.22,95,leo,4:02 AM,Dessert,aliquam erat volutpat in congue etiam justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam faucibus
+11.24,96,"",10:24 PM,Main Course,lacus morbi quis tortor id nulla ultrices aliquet maecenas leo odio condimentum id
+413.65,97,"",5:36 PM,Appetizer,nullam molestie nibh in lectus pellentesque at nulla suspendisse potenti cras in purus
+330.86,98,at,7:15 AM,Main Course,vulputate elementum nullam varius nulla facilisi cras non velit nec nisi vulputate nonummy maecenas tincidunt lacus at
+360.92,99,lacus morbi sem,4:33 AM,Main Course,sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget
+770.3,100,curabitur at,3:51 PM,Main Course,in quam fringilla rhoncus mauris enim leo rhoncus sed vestibulum sit amet
+653.0,101,ut,3:46 PM,Appetizer,dui vel sem sed sagittis nam congue risus semper porta volutpat quam pede
+978.77,102,eu tincidunt,12:19 PM,Appetizer,consequat dui nec nisi volutpat eleifend donec ut dolor morbi vel
+126.92,103,hendrerit,11:01 AM,Dessert,leo odio condimentum id luctus nec molestie sed justo pellentesque viverra pede ac diam cras pellentesque
+127.41,104,"",5:06 PM,Appetizer,sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc
+707.26,105,lacinia nisi,10:17 PM,Dessert,a odio in hac habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt
+787.87,106,penatibus et,7:50 AM,Appetizer,curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit amet lobortis sapien sapien non mi integer ac
+916.74,107,"",3:59 PM,Appetizer,at lorem integer tincidunt ante vel ipsum praesent blandit lacinia
+947.58,108,turpis,11:46 AM,Appetizer,id ornare imperdiet sapien urna pretium nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in
+484.97,109,molestie sed,9:28 AM,Main Course,pellentesque viverra pede ac diam cras pellentesque volutpat dui maecenas tristique est et tempus semper est quam pharetra magna ac
+742.06,110,pede,10:36 PM,Appetizer,non lectus aliquam sit amet diam in magna bibendum imperdiet nullam orci
+416.54,111,nonummy,8:23 AM,Main Course,nulla ultrices aliquet maecenas leo odio condimentum id luctus nec molestie sed justo pellentesque viverra pede ac
+140.04,112,felis,12:47 PM,Appetizer,suspendisse accumsan tortor quis turpis sed ante vivamus tortor duis mattis egestas metus aenean fermentum donec ut mauris eget
+575.26,113,dapibus,9:23 PM,Main Course,sodales scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis sed ante vivamus tortor duis mattis egestas metus aenean
+65.9,114,orci luctus et,6:32 PM,Appetizer,sit amet turpis elementum ligula vehicula consequat morbi a ipsum integer a nibh in quis justo
+520.75,115,"",7:51 AM,Main Course,blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede
+796.1,116,sem,1:03 AM,Main Course,vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque
+762.62,117,consequat in,10:09 AM,Dessert,dis parturient montes nascetur ridiculus mus etiam vel augue vestibulum rutrum rutrum neque aenean auctor gravida
+227.51,118,primis,6:09 AM,Dessert,dui proin leo odio porttitor id consequat in consequat ut nulla sed accumsan felis ut at dolor
+663.69,119,"",12:24 AM,Dessert,ultrices vel augue vestibulum ante ipsum primis in faucibus orci luctus
+183.22,120,"",12:47 AM,Appetizer,vitae consectetuer eget rutrum at lorem integer tincidunt ante vel
+885.87,121,"",5:21 AM,Dessert,eu massa donec dapibus duis at velit eu est congue elementum in hac habitasse platea dictumst morbi vestibulum
+511.98,122,vestibulum ante ipsum,3:36 AM,Dessert,a nibh in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla ultrices
+680.15,123,in hac,4:57 AM,Appetizer,arcu sed augue aliquam erat volutpat in congue etiam justo etiam pretium iaculis justo in hac habitasse
+807.32,124,platea dictumst morbi,5:28 PM,Main Course,ligula vehicula consequat morbi a ipsum integer a nibh in quis justo maecenas
+97.48,125,"",7:36 AM,Appetizer,vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc donec
+40.15,126,ut,12:31 PM,Dessert,congue diam id ornare imperdiet sapien urna pretium nisl ut
+659.67,127,congue,5:21 PM,Appetizer,volutpat erat quisque erat eros viverra eget congue eget semper rutrum nulla nunc purus phasellus
+642.56,128,enim lorem ipsum,3:52 PM,Dessert,a suscipit nulla elit ac nulla sed vel enim sit amet nunc viverra dapibus
+975.9,129,risus,7:48 AM,Appetizer,pede malesuada in imperdiet et commodo vulputate justo in blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing
+474.66,130,montes nascetur,7:19 AM,Appetizer,cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus etiam vel augue vestibulum rutrum
+305.79,131,vel ipsum praesent,5:06 PM,Dessert,ac consequat metus sapien ut nunc vestibulum ante ipsum primis
+76.8,132,tempus,8:42 PM,Appetizer,curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae
+681.68,133,morbi,10:36 AM,Main Course,libero convallis eget eleifend luctus ultricies eu nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum
+956.95,134,hac habitasse platea,5:30 PM,Appetizer,erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget
+439.07,135,mattis pulvinar,1:39 AM,Main Course,augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed
+620.43,136,congue etiam justo,2:11 PM,Main Course,lobortis est phasellus sit amet erat nulla tempus vivamus in felis eu sapien cursus vestibulum proin eu mi nulla ac
+832.12,137,"",11:20 AM,Main Course,eu est congue elementum in hac habitasse platea dictumst morbi vestibulum velit
+79.68,138,quis tortor id,8:58 AM,Main Course,dis parturient montes nascetur ridiculus mus vivamus vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis parturient montes nascetur
+815.66,139,"",10:13 AM,Dessert,pretium iaculis diam erat fermentum justo nec condimentum neque sapien placerat ante nulla
+201.73,140,"",11:30 AM,Main Course,in congue etiam justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna ut
+479.55,141,sem fusce consequat,6:05 PM,Dessert,quam fringilla rhoncus mauris enim leo rhoncus sed vestibulum sit amet cursus
+695.23,142,vulputate luctus cum,12:35 AM,Appetizer,nulla ultrices aliquet maecenas leo odio condimentum id luctus nec molestie sed justo pellentesque viverra pede
+426.32,143,scelerisque quam turpis,11:50 AM,Main Course,diam neque vestibulum eget vulputate ut ultrices vel augue vestibulum ante ipsum primis in
+739.0,144,ultrices mattis,4:52 PM,Appetizer,ut nulla sed accumsan felis ut at dolor quis odio consequat varius integer ac leo pellentesque ultrices mattis
+29.98,145,ipsum,9:48 PM,Appetizer,eleifend luctus ultricies eu nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis
+615.57,146,a,7:34 PM,Main Course,ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur
+96.32,147,"",5:55 AM,Dessert,libero quis orci nullam molestie nibh in lectus pellentesque at nulla suspendisse potenti cras in purus
+598.84,148,sit,4:46 PM,Main Course,nascetur ridiculus mus vivamus vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus etiam
+139.53,149,"",9:21 AM,Main Course,ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit
+408.91,150,"",6:59 AM,Appetizer,vel pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus in est risus auctor sed tristique in tempus
+618.78,151,"",1:43 AM,Appetizer,in blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing
+409.59,152,ridiculus mus etiam,10:46 AM,Appetizer,pellentesque ultrices phasellus id sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean
+989.6,153,odio,1:07 PM,Main Course,posuere cubilia curae duis faucibus accumsan odio curabitur convallis duis consequat
+451.78,154,morbi,3:39 AM,Dessert,non lectus aliquam sit amet diam in magna bibendum imperdiet nullam
+991.0,155,rutrum rutrum neque,8:24 PM,Dessert,odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce
+929.06,156,sit,11:31 PM,Main Course,at dolor quis odio consequat varius integer ac leo pellentesque ultrices mattis odio donec vitae nisi nam ultrices libero non
+533.53,157,ac,9:53 PM,Dessert,leo pellentesque ultrices mattis odio donec vitae nisi nam ultrices libero non mattis pulvinar nulla
+854.66,158,"",1:09 AM,Appetizer,donec semper sapien a libero nam dui proin leo odio porttitor id consequat in consequat ut nulla
+923.29,159,"",12:12 PM,Dessert,est phasellus sit amet erat nulla tempus vivamus in felis eu sapien cursus vestibulum proin eu mi nulla ac
+55.05,160,magna,12:27 PM,Dessert,in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat id mauris vulputate elementum
+315.04,161,"",2:57 PM,Appetizer,pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur in libero ut massa volutpat convallis morbi
+56.57,162,"",3:59 AM,Main Course,nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in congue etiam justo etiam pretium iaculis justo
+286.2,163,iaculis diam,10:45 AM,Main Course,vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+102.02,164,vulputate,7:55 AM,Main Course,mattis egestas metus aenean fermentum donec ut mauris eget massa tempor convallis
+733.97,165,id mauris vulputate,12:33 AM,Appetizer,eu tincidunt in leo maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus
+813.92,166,lacus morbi,3:44 PM,Appetizer,congue elementum in hac habitasse platea dictumst morbi vestibulum velit id
+372.02,167,in,9:44 PM,Dessert,eget orci vehicula condimentum curabitur in libero ut massa volutpat convallis morbi odio odio elementum eu interdum eu tincidunt in
+925.97,168,"",2:56 PM,Main Course,vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+80.74,169,lorem ipsum dolor,6:02 PM,Dessert,ut odio cras mi pede malesuada in imperdiet et commodo vulputate justo in blandit ultrices enim
+542.31,170,eget nunc,5:53 AM,Dessert,eget nunc donec quis orci eget orci vehicula condimentum curabitur in libero ut
+459.32,171,"",4:22 AM,Appetizer,sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci
+670.88,172,faucibus,4:05 AM,Main Course,nisl venenatis lacinia aenean sit amet justo morbi ut odio cras mi pede malesuada
+150.73,173,diam,1:01 AM,Main Course,aenean auctor gravida sem praesent id massa id nisl venenatis
+533.35,174,et,1:34 AM,Main Course,vitae nisi nam ultrices libero non mattis pulvinar nulla pede ullamcorper
+962.95,175,"",10:57 AM,Main Course,pretium nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in congue etiam justo etiam pretium
+772.68,176,"",6:50 PM,Dessert,justo morbi ut odio cras mi pede malesuada in imperdiet et commodo vulputate justo in blandit ultrices enim lorem
+852.78,177,quam,5:31 PM,Main Course,duis bibendum morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui vel nisl duis
+948.52,178,"",8:03 PM,Main Course,suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce congue diam id ornare imperdiet sapien
+322.86,179,at turpis donec,8:30 AM,Dessert,nisi eu orci mauris lacinia sapien quis libero nullam sit
+35.75,180,viverra pede ac,10:46 AM,Appetizer,proin leo odio porttitor id consequat in consequat ut nulla sed accumsan felis ut at dolor quis odio consequat
+793.51,181,elementum,5:50 PM,Main Course,quis odio consequat varius integer ac leo pellentesque ultrices mattis
+901.11,182,"",8:52 PM,Main Course,hac habitasse platea dictumst maecenas ut massa quis augue luctus
+626.31,183,"",5:33 AM,Main Course,eget eros elementum pellentesque quisque porta volutpat erat quisque erat eros viverra
+430.89,184,justo eu,9:43 PM,Main Course,odio justo sollicitudin ut suscipit a feugiat et eros vestibulum
+217.72,185,pretium,7:40 AM,Main Course,orci luctus et ultrices posuere cubilia curae duis faucibus accumsan odio curabitur convallis duis consequat
+844.87,186,vel,7:01 PM,Dessert,ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit proin
+340.68,187,"",9:28 PM,Main Course,consequat in consequat ut nulla sed accumsan felis ut at dolor quis odio consequat varius integer ac leo
+525.55,188,ipsum,6:01 PM,Main Course,sed accumsan felis ut at dolor quis odio consequat varius integer ac leo pellentesque ultrices mattis odio donec vitae
+819.5,189,tortor duis,10:04 PM,Main Course,nulla eget eros elementum pellentesque quisque porta volutpat erat quisque
+497.93,190,quis odio,3:39 AM,Dessert,turpis nec euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula nec sem duis aliquam
+974.32,191,luctus,5:07 PM,Dessert,vestibulum aliquet ultrices erat tortor sollicitudin mi sit amet lobortis sapien sapien non mi integer ac neque
+499.66,192,ipsum,4:39 PM,Main Course,congue diam id ornare imperdiet sapien urna pretium nisl ut volutpat
+197.18,193,habitasse platea dictumst,5:13 PM,Dessert,a nibh in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla ultrices aliquet maecenas leo odio condimentum
+817.34,194,et ultrices posuere,7:06 AM,Main Course,eget congue eget semper rutrum nulla nunc purus phasellus in felis donec semper sapien a libero nam dui
+236.95,195,platea dictumst maecenas,12:07 AM,Appetizer,elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium
+449.33,196,vestibulum eget vulputate,4:18 AM,Dessert,ante ipsum primis in faucibus orci luctus et ultrices posuere
+218.99,197,nisl venenatis lacinia,12:04 AM,Dessert,integer ac leo pellentesque ultrices mattis odio donec vitae nisi nam
+758.06,198,sagittis,8:06 AM,Appetizer,orci vehicula condimentum curabitur in libero ut massa volutpat convallis morbi odio odio elementum eu interdum
+221.85,199,eget tincidunt,4:57 AM,Appetizer,nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in congue etiam justo etiam
+96.21,200,integer aliquet,7:06 PM,Dessert,dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent
+313.55,201,curabitur,9:39 AM,Dessert,nibh in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla ultrices aliquet maecenas leo odio
+881.82,202,sed interdum,6:32 PM,Main Course,vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum
+23.11,203,"",3:25 AM,Dessert,sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce congue diam id ornare
+103.04,204,"",10:09 PM,Main Course,erat tortor sollicitudin mi sit amet lobortis sapien sapien non mi integer ac neque
+496.65,205,sit amet,3:18 PM,Appetizer,erat fermentum justo nec condimentum neque sapien placerat ante nulla justo aliquam quis turpis eget elit sodales scelerisque mauris sit
+222.5,206,"",1:00 PM,Main Course,orci luctus et ultrices posuere cubilia curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit
+99.94,207,"",1:51 PM,Appetizer,nunc purus phasellus in felis donec semper sapien a libero nam dui proin leo
+686.46,208,id,12:56 AM,Main Course,mauris sit amet eros suspendisse accumsan tortor quis turpis sed ante vivamus
+310.03,209,"",1:28 AM,Dessert,aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur in libero ut massa volutpat convallis
+649.76,210,lectus in est,8:28 PM,Dessert,mus vivamus vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis parturient montes
+905.83,211,"",2:15 PM,Appetizer,quam pharetra magna ac consequat metus sapien ut nunc vestibulum ante ipsum primis in
+289.39,212,vel,12:15 PM,Main Course,et magnis dis parturient montes nascetur ridiculus mus vivamus vestibulum sagittis sapien cum sociis natoque penatibus
+873.18,213,neque duis,6:48 PM,Dessert,nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus vel nulla eget eros elementum pellentesque quisque
+904.81,214,"",2:42 AM,Dessert,quam turpis adipiscing lorem vitae mattis nibh ligula nec sem duis aliquam convallis nunc proin at turpis a
+609.88,215,lorem vitae,5:34 AM,Appetizer,orci pede venenatis non sodales sed tincidunt eu felis fusce
+380.64,216,libero,9:03 AM,Appetizer,pharetra magna ac consequat metus sapien ut nunc vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
+235.86,217,"",7:38 AM,Main Course,nunc vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae
+346.77,218,lorem vitae,8:17 AM,Dessert,malesuada in imperdiet et commodo vulputate justo in blandit ultrices enim lorem ipsum
+975.98,219,"",6:01 PM,Main Course,vulputate ut ultrices vel augue vestibulum ante ipsum primis in faucibus orci luctus
+419.94,220,orci,9:37 AM,Main Course,erat quisque erat eros viverra eget congue eget semper rutrum
+839.04,221,libero rutrum,2:45 AM,Main Course,leo rhoncus sed vestibulum sit amet cursus id turpis integer aliquet massa id lobortis convallis
+763.88,222,"",5:04 PM,Main Course,dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum
+966.46,223,in sapien,11:25 AM,Main Course,aliquam sit amet diam in magna bibendum imperdiet nullam orci pede venenatis
+530.79,224,"",9:54 AM,Dessert,sapien arcu sed augue aliquam erat volutpat in congue etiam justo etiam pretium iaculis justo in hac habitasse platea
+915.92,225,purus,5:57 PM,Appetizer,eu magna vulputate luctus cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus vivamus vestibulum sagittis sapien
+781.95,226,"",9:21 PM,Main Course,pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur in libero ut massa
+776.23,227,sapien dignissim,5:37 AM,Appetizer,nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus vel nulla eget eros elementum pellentesque
+680.88,228,nunc viverra dapibus,1:43 AM,Main Course,nulla ut erat id mauris vulputate elementum nullam varius nulla facilisi cras non velit
+170.61,229,etiam,7:29 PM,Dessert,eget massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies eu nibh quisque id justo sit amet
+303.21,230,quam suspendisse potenti,3:06 AM,Appetizer,at velit vivamus vel nulla eget eros elementum pellentesque quisque porta volutpat erat quisque erat eros viverra eget congue
+518.13,231,sapien cum sociis,7:12 AM,Main Course,sit amet erat nulla tempus vivamus in felis eu sapien cursus vestibulum proin eu mi
+927.83,232,imperdiet nullam,4:20 PM,Appetizer,in tempor turpis nec euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh
+571.54,233,mi nulla ac,3:15 AM,Appetizer,vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam
+326.62,234,"",7:13 PM,Appetizer,viverra eget congue eget semper rutrum nulla nunc purus phasellus in felis donec semper
+187.63,235,mauris vulputate,1:53 PM,Main Course,libero nullam sit amet turpis elementum ligula vehicula consequat morbi a ipsum integer a nibh in quis justo maecenas
+862.9,236,volutpat,3:53 PM,Dessert,nulla pede ullamcorper augue a suscipit nulla elit ac nulla sed vel enim
+157.46,237,ipsum primis in,10:50 PM,Dessert,porttitor id consequat in consequat ut nulla sed accumsan felis ut at
+393.36,238,justo in,6:32 AM,Main Course,sit amet consectetuer adipiscing elit proin risus praesent lectus vestibulum quam sapien varius ut blandit non interdum in ante
+640.4,239,vel augue vestibulum,9:01 PM,Appetizer,vel nisl duis ac nibh fusce lacus purus aliquet at feugiat non pretium quis lectus
+756.09,240,vestibulum sagittis,11:43 AM,Appetizer,dolor sit amet consectetuer adipiscing elit proin risus praesent lectus
+589.07,241,non mauris,2:50 PM,Main Course,sed sagittis nam congue risus semper porta volutpat quam pede lobortis ligula sit amet eleifend pede libero
+484.1,242,"",9:16 PM,Dessert,donec quis orci eget orci vehicula condimentum curabitur in libero
+358.39,243,molestie sed,7:46 AM,Main Course,non interdum in ante vestibulum ante ipsum primis in faucibus
+163.87,244,elementum in hac,1:23 AM,Dessert,nec condimentum neque sapien placerat ante nulla justo aliquam quis turpis eget elit sodales scelerisque mauris sit amet eros suspendisse
+925.94,245,eget massa tempor,11:53 AM,Appetizer,donec diam neque vestibulum eget vulputate ut ultrices vel augue vestibulum ante ipsum primis in faucibus
+28.64,246,"",8:37 PM,Main Course,tempus semper est quam pharetra magna ac consequat metus sapien ut nunc vestibulum ante ipsum primis
+771.65,247,nec,2:29 AM,Main Course,amet nulla quisque arcu libero rutrum ac lobortis vel dapibus at diam nam tristique tortor eu pede
+576.35,248,est congue elementum,6:26 AM,Dessert,in felis donec semper sapien a libero nam dui proin
+419.34,249,non mauris,10:54 AM,Main Course,at turpis a pede posuere nonummy integer non velit donec diam neque
+761.42,250,ipsum dolor sit,5:10 PM,Main Course,cras pellentesque volutpat dui maecenas tristique est et tempus semper est
+755.83,251,ultrices posuere,9:19 PM,Appetizer,pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit
+884.75,252,sem duis aliquam,12:28 PM,Appetizer,vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur in
+571.53,253,"",8:01 AM,Dessert,luctus et ultrices posuere cubilia curae nulla dapibus dolor vel est donec odio justo sollicitudin ut suscipit a
+692.35,254,"",5:16 AM,Appetizer,platea dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at
+990.08,255,"",11:39 PM,Appetizer,faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae
+461.82,256,"",5:56 AM,Dessert,nunc viverra dapibus nulla suscipit ligula in lacus curabitur at ipsum ac tellus semper interdum mauris ullamcorper
+369.87,257,at,2:39 AM,Dessert,rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed
+111.98,258,"",8:42 PM,Main Course,erat quisque erat eros viverra eget congue eget semper rutrum nulla nunc purus phasellus in
+506.91,259,"",7:17 PM,Main Course,faucibus orci luctus et ultrices posuere cubilia curae duis faucibus accumsan odio curabitur convallis duis consequat
+225.7,260,"",8:40 AM,Appetizer,nulla facilisi cras non velit nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus vel nulla eget
+930.38,261,luctus et,8:49 AM,Appetizer,vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+398.96,262,porttitor pede,1:14 PM,Appetizer,dui luctus rutrum nulla tellus in sagittis dui vel nisl duis ac nibh fusce lacus purus aliquet at
+642.08,263,blandit,7:22 AM,Appetizer,eget orci vehicula condimentum curabitur in libero ut massa volutpat convallis morbi odio odio elementum eu interdum eu
+141.05,264,suspendisse ornare consequat,10:59 PM,Appetizer,purus eu magna vulputate luctus cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus
+592.83,265,"",4:02 AM,Dessert,morbi ut odio cras mi pede malesuada in imperdiet et commodo vulputate justo in blandit ultrices enim lorem ipsum dolor
+534.46,266,turpis a pede,7:59 PM,Main Course,malesuada in imperdiet et commodo vulputate justo in blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit proin
+556.17,267,turpis adipiscing lorem,12:06 AM,Appetizer,pretium iaculis diam erat fermentum justo nec condimentum neque sapien placerat ante nulla justo aliquam quis turpis
+662.25,268,vulputate,7:15 AM,Dessert,bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt eu felis fusce posuere felis
+696.98,269,scelerisque mauris sit,11:28 PM,Appetizer,feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce congue diam id ornare
+312.41,270,odio,10:42 PM,Main Course,nunc nisl duis bibendum felis sed interdum venenatis turpis enim
+947.62,271,"",11:39 AM,Dessert,posuere cubilia curae duis faucibus accumsan odio curabitur convallis duis consequat dui nec nisi volutpat eleifend donec
+717.81,272,quis,6:35 PM,Appetizer,luctus cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus
+897.43,273,nulla neque,12:49 AM,Appetizer,nulla dapibus dolor vel est donec odio justo sollicitudin ut suscipit a feugiat et eros vestibulum
+39.42,274,rutrum,4:03 PM,Appetizer,amet nunc viverra dapibus nulla suscipit ligula in lacus curabitur at ipsum
+752.88,275,justo,11:31 PM,Dessert,dictumst etiam faucibus cursus urna ut tellus nulla ut erat id mauris vulputate elementum nullam varius
+319.93,276,"",5:48 PM,Dessert,ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+651.85,277,in hac habitasse,4:48 AM,Dessert,libero non mattis pulvinar nulla pede ullamcorper augue a suscipit nulla elit ac nulla sed vel enim
+382.97,278,enim,2:09 AM,Appetizer,fermentum donec ut mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies eu
+462.0,279,ligula in,9:32 PM,Dessert,id nisl venenatis lacinia aenean sit amet justo morbi ut odio cras mi pede malesuada in imperdiet et
+989.22,280,iaculis,1:18 PM,Main Course,iaculis diam erat fermentum justo nec condimentum neque sapien placerat ante nulla
+739.59,281,ipsum aliquam,3:37 PM,Dessert,fusce lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend
+561.98,282,eleifend,11:47 AM,Appetizer,fusce congue diam id ornare imperdiet sapien urna pretium nisl
+39.79,283,morbi porttitor,3:07 PM,Main Course,in faucibus orci luctus et ultrices posuere cubilia curae duis faucibus accumsan odio curabitur convallis duis consequat dui nec nisi
+299.28,284,magna ac consequat,12:43 AM,Dessert,sed interdum venenatis turpis enim blandit mi in porttitor pede justo eu massa donec
+334.17,285,massa id,4:31 AM,Dessert,nunc vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae mauris
+226.52,286,eu orci mauris,3:06 AM,Dessert,nisl duis ac nibh fusce lacus purus aliquet at feugiat non pretium quis
+196.65,287,cubilia,1:55 PM,Appetizer,velit eu est congue elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam
+453.81,288,sed vestibulum sit,6:51 PM,Dessert,quis turpis eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan
+9.35,289,ante,8:42 AM,Dessert,nulla ultrices aliquet maecenas leo odio condimentum id luctus nec molestie sed
+511.37,290,id mauris vulputate,1:59 PM,Main Course,cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus vivamus vestibulum sagittis sapien cum
+160.31,291,"",9:32 PM,Appetizer,potenti in eleifend quam a odio in hac habitasse platea dictumst maecenas
+716.65,292,mauris sit amet,11:53 PM,Appetizer,consequat lectus in est risus auctor sed tristique in tempus sit amet
+322.43,293,habitasse platea,8:48 PM,Appetizer,vestibulum eget vulputate ut ultrices vel augue vestibulum ante ipsum primis
+854.26,294,odio,4:54 PM,Main Course,proin at turpis a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue
+955.32,295,urna,1:04 AM,Appetizer,odio cras mi pede malesuada in imperdiet et commodo vulputate justo in blandit ultrices enim lorem ipsum dolor sit amet
+768.94,296,eget tempus vel,5:18 PM,Dessert,sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus
+89.93,297,tortor quis turpis,10:16 PM,Appetizer,sit amet erat nulla tempus vivamus in felis eu sapien cursus vestibulum proin eu mi nulla ac
+831.94,298,"",6:02 PM,Appetizer,vulputate luctus cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus vivamus vestibulum
+252.01,299,vulputate,6:41 AM,Appetizer,varius ut blandit non interdum in ante vestibulum ante ipsum primis
+958.51,300,etiam,9:15 PM,Appetizer,pharetra magna ac consequat metus sapien ut nunc vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
+193.16,301,"",4:33 PM,Appetizer,duis ac nibh fusce lacus purus aliquet at feugiat non
+238.8,302,"",12:45 AM,Appetizer,nunc rhoncus dui vel sem sed sagittis nam congue risus semper porta
+345.19,303,massa quis,11:49 AM,Main Course,consequat ut nulla sed accumsan felis ut at dolor quis odio consequat varius integer
+326.66,304,sit,11:43 PM,Appetizer,nascetur ridiculus mus vivamus vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus
+853.86,305,"",2:14 AM,Appetizer,quisque ut erat curabitur gravida nisi at nibh in hac
+723.33,306,ante ipsum,7:16 AM,Main Course,augue vel accumsan tellus nisi eu orci mauris lacinia sapien quis libero nullam sit amet turpis
+891.0,307,"",5:57 AM,Main Course,ut massa volutpat convallis morbi odio odio elementum eu interdum
+766.73,308,"",9:00 AM,Appetizer,a odio in hac habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut
+496.7,309,pede,12:35 AM,Dessert,in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum justo nec condimentum neque sapien placerat
+480.46,310,"",6:33 PM,Dessert,blandit mi in porttitor pede justo eu massa donec dapibus
+95.19,311,lobortis sapien sapien,9:34 AM,Dessert,eleifend pede libero quis orci nullam molestie nibh in lectus pellentesque at nulla suspendisse potenti cras in purus eu magna
+159.63,312,"",7:22 AM,Dessert,proin eu mi nulla ac enim in tempor turpis nec
+508.09,313,non sodales,1:55 PM,Appetizer,sapien cursus vestibulum proin eu mi nulla ac enim in tempor turpis nec euismod scelerisque quam
+942.41,314,"",1:42 PM,Dessert,facilisi cras non velit nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus vel nulla eget eros elementum pellentesque
+444.82,315,"",2:05 PM,Appetizer,eu magna vulputate luctus cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus
+439.75,316,"",3:30 PM,Dessert,cras in purus eu magna vulputate luctus cum sociis natoque penatibus et magnis
+287.49,317,ante,7:42 AM,Main Course,hac habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis molestie
+160.79,318,quam,7:14 AM,Main Course,mauris sit amet eros suspendisse accumsan tortor quis turpis sed ante vivamus tortor duis mattis
+837.35,319,non pretium,2:29 AM,Dessert,pulvinar nulla pede ullamcorper augue a suscipit nulla elit ac nulla sed
+339.83,320,sed tincidunt,10:55 PM,Main Course,id ornare imperdiet sapien urna pretium nisl ut volutpat sapien
+582.92,321,a odio in,8:07 PM,Dessert,ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi
+825.27,322,curae duis faucibus,5:46 PM,Dessert,nisl nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit mi
+510.36,323,velit id,3:10 AM,Appetizer,arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget
+438.99,324,nisi at,3:07 PM,Main Course,duis aliquam convallis nunc proin at turpis a pede posuere nonummy integer non velit donec diam neque vestibulum eget
+774.8,325,velit,6:23 AM,Appetizer,in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla
+654.31,326,"",11:21 AM,Main Course,bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt eu felis fusce posuere felis sed lacus morbi
+677.9,327,felis sed,7:11 AM,Main Course,vel nulla eget eros elementum pellentesque quisque porta volutpat erat quisque erat eros viverra eget congue eget semper rutrum
+767.3,328,dapibus dolor vel,9:12 PM,Appetizer,duis consequat dui nec nisi volutpat eleifend donec ut dolor morbi
+878.13,329,quisque erat,10:11 AM,Appetizer,etiam justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus
+604.38,330,nisl,4:32 AM,Dessert,vel augue vestibulum rutrum rutrum neque aenean auctor gravida sem praesent id massa id nisl venenatis lacinia
+531.41,331,vitae,7:12 PM,Appetizer,tellus nisi eu orci mauris lacinia sapien quis libero nullam sit amet turpis elementum ligula vehicula consequat morbi
+675.01,332,"",5:36 AM,Main Course,libero ut massa volutpat convallis morbi odio odio elementum eu interdum eu tincidunt in leo
+853.73,333,"",5:26 AM,Main Course,justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae
+838.75,334,eget nunc donec,1:55 PM,Dessert,gravida nisi at nibh in hac habitasse platea dictumst aliquam
+119.04,335,rutrum rutrum neque,11:22 AM,Main Course,orci eget orci vehicula condimentum curabitur in libero ut massa volutpat convallis morbi odio odio elementum eu interdum eu tincidunt
+859.8,336,tincidunt eget tempus,7:35 PM,Main Course,sed interdum venenatis turpis enim blandit mi in porttitor pede justo eu massa donec dapibus
+839.97,337,sed magna at,11:16 AM,Main Course,sit amet eleifend pede libero quis orci nullam molestie nibh in lectus pellentesque at nulla suspendisse potenti
+475.58,338,"",6:59 AM,Dessert,vestibulum quam sapien varius ut blandit non interdum in ante vestibulum ante ipsum
+755.85,339,"",9:11 AM,Main Course,fusce lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend
+554.87,340,sed,1:55 AM,Main Course,nisl duis ac nibh fusce lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend
+512.44,341,maecenas leo odio,11:11 PM,Appetizer,amet cursus id turpis integer aliquet massa id lobortis convallis tortor risus dapibus augue vel accumsan tellus
+882.02,342,"",4:04 AM,Dessert,nec euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula nec sem duis aliquam convallis nunc
+953.88,343,cubilia,5:33 PM,Dessert,bibendum morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui vel nisl duis ac
+374.45,344,in est risus,8:12 AM,Main Course,vel augue vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae donec pharetra
+324.51,345,"",6:16 AM,Main Course,ullamcorper augue a suscipit nulla elit ac nulla sed vel enim sit amet nunc viverra dapibus nulla suscipit
+548.53,346,hendrerit at,4:47 PM,Appetizer,vel ipsum praesent blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede justo
+990.72,347,"",11:58 PM,Dessert,diam neque vestibulum eget vulputate ut ultrices vel augue vestibulum ante ipsum primis in faucibus
+929.33,348,pharetra magna,8:36 AM,Main Course,ligula suspendisse ornare consequat lectus in est risus auctor sed tristique in tempus sit amet sem
+417.96,349,"",4:51 AM,Appetizer,tellus nulla ut erat id mauris vulputate elementum nullam varius nulla facilisi cras
+990.51,350,nisi eu orci,2:00 AM,Main Course,consequat lectus in est risus auctor sed tristique in tempus sit amet sem fusce consequat nulla nisl nunc nisl duis
+300.65,351,enim,1:29 AM,Dessert,nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit mi in porttitor pede justo
+363.47,352,blandit non,2:50 PM,Main Course,amet diam in magna bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt eu felis fusce
+833.87,353,ante vivamus,3:51 PM,Dessert,convallis nunc proin at turpis a pede posuere nonummy integer
+317.57,354,"",9:22 PM,Dessert,praesent id massa id nisl venenatis lacinia aenean sit amet justo morbi ut odio cras mi pede malesuada
+137.56,355,accumsan tortor,4:19 PM,Appetizer,ut ultrices vel augue vestibulum ante ipsum primis in faucibus orci luctus
+549.83,356,at velit,5:46 PM,Dessert,sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat
+66.58,357,posuere metus vitae,11:51 PM,Main Course,primis in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse
+369.5,358,blandit non,3:03 PM,Main Course,pellentesque ultrices phasellus id sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at
+898.77,359,"",5:03 PM,Appetizer,ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus at
+303.99,360,"",11:06 PM,Dessert,ut erat curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer
+268.42,361,"",7:20 AM,Dessert,ac nibh fusce lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend quam
+626.32,362,justo aliquam quis,2:15 PM,Main Course,metus aenean fermentum donec ut mauris eget massa tempor convallis nulla
+693.15,363,potenti nullam,1:43 AM,Main Course,nulla neque libero convallis eget eleifend luctus ultricies eu nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum
+270.33,364,"",10:57 PM,Dessert,nulla ut erat id mauris vulputate elementum nullam varius nulla
+172.24,365,nulla,10:57 PM,Main Course,erat quisque erat eros viverra eget congue eget semper rutrum nulla nunc purus phasellus in felis donec semper
+506.96,366,purus aliquet at,5:58 AM,Appetizer,sollicitudin mi sit amet lobortis sapien sapien non mi integer ac neque duis bibendum morbi non quam nec
+733.83,367,"",1:20 PM,Main Course,amet nulla quisque arcu libero rutrum ac lobortis vel dapibus at diam nam tristique
+923.08,368,congue vivamus,10:18 PM,Dessert,pede malesuada in imperdiet et commodo vulputate justo in blandit ultrices enim lorem
+289.53,369,"",12:06 PM,Appetizer,blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer
+820.59,370,id consequat,2:49 AM,Appetizer,pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus in est risus auctor sed tristique in tempus sit
+150.64,371,pede,7:17 PM,Dessert,faucibus orci luctus et ultrices posuere cubilia curae donec pharetra magna vestibulum
+804.38,372,tortor id nulla,4:45 AM,Dessert,orci pede venenatis non sodales sed tincidunt eu felis fusce posuere felis sed lacus
+375.54,373,interdum,5:48 PM,Appetizer,sed tristique in tempus sit amet sem fusce consequat nulla nisl nunc nisl duis bibendum felis
+782.63,374,neque,7:15 PM,Dessert,odio cras mi pede malesuada in imperdiet et commodo vulputate justo in blandit
+441.04,375,nec dui luctus,8:19 AM,Main Course,justo in blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum mauris
+534.97,376,natoque penatibus,11:38 AM,Appetizer,ac tellus semper interdum mauris ullamcorper purus sit amet nulla quisque arcu
+302.57,377,sed,7:50 PM,Dessert,lectus in quam fringilla rhoncus mauris enim leo rhoncus sed vestibulum
+131.33,378,integer ac neque,3:35 PM,Appetizer,velit donec diam neque vestibulum eget vulputate ut ultrices vel augue vestibulum
+873.45,379,a nibh in,5:58 PM,Dessert,urna pretium nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in
+465.79,380,sapien a libero,3:41 AM,Dessert,aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem
+99.71,381,id ligula,6:42 PM,Dessert,odio odio elementum eu interdum eu tincidunt in leo maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus
+471.58,382,vitae mattis nibh,5:29 AM,Appetizer,rhoncus sed vestibulum sit amet cursus id turpis integer aliquet massa id lobortis convallis tortor risus dapibus
+93.42,383,"",1:16 PM,Appetizer,maecenas rhoncus aliquam lacus morbi quis tortor id nulla ultrices aliquet maecenas leo odio condimentum id luctus nec molestie
+444.69,384,est quam,6:54 AM,Main Course,lorem vitae mattis nibh ligula nec sem duis aliquam convallis nunc proin at turpis a pede posuere nonummy integer non
+31.12,385,massa id,11:42 AM,Dessert,sed sagittis nam congue risus semper porta volutpat quam pede lobortis ligula sit amet eleifend pede libero quis
+699.12,386,pede justo,6:48 PM,Appetizer,cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus at turpis donec posuere
+346.82,387,neque,8:34 AM,Dessert,integer pede justo lacinia eget tincidunt eget tempus vel pede morbi porttitor lorem id
+690.56,388,maecenas ut massa,1:43 AM,Dessert,purus eu magna vulputate luctus cum sociis natoque penatibus et magnis dis parturient
+6.29,389,elementum,9:57 PM,Appetizer,cras mi pede malesuada in imperdiet et commodo vulputate justo in blandit ultrices
+937.61,390,donec ut dolor,10:21 PM,Appetizer,nulla quisque arcu libero rutrum ac lobortis vel dapibus at diam nam
+568.41,391,vulputate luctus cum,8:46 AM,Dessert,sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc donec
+693.91,392,"",5:37 AM,Appetizer,nisi nam ultrices libero non mattis pulvinar nulla pede ullamcorper augue a suscipit nulla elit
+209.01,393,nisl,11:43 PM,Dessert,nulla justo aliquam quis turpis eget elit sodales scelerisque mauris sit
+122.91,394,odio odio,6:10 AM,Dessert,mauris enim leo rhoncus sed vestibulum sit amet cursus id turpis integer aliquet massa
+954.76,395,adipiscing molestie hendrerit,8:46 AM,Appetizer,ac diam cras pellentesque volutpat dui maecenas tristique est et tempus semper est quam pharetra
+194.93,396,"",6:39 PM,Main Course,nulla elit ac nulla sed vel enim sit amet nunc viverra dapibus nulla
+79.29,397,faucibus,1:21 PM,Dessert,consequat dui nec nisi volutpat eleifend donec ut dolor morbi vel lectus in
+259.22,398,tristique,2:25 AM,Appetizer,dis parturient montes nascetur ridiculus mus vivamus vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis
+535.74,399,integer ac leo,8:40 AM,Appetizer,neque duis bibendum morbi non quam nec dui luctus rutrum nulla
+376.64,400,ipsum praesent,10:56 PM,Appetizer,vivamus in felis eu sapien cursus vestibulum proin eu mi nulla ac enim in tempor turpis
