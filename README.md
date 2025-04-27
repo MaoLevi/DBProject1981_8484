@@ -1,7 +1,7 @@
 # 🌟 **DBProject_1981_8484 - מערכת לניהול מסד נתונים** 🌟
 
 ## מגישים:
-👨‍💻 **מאור לוי** (ת.ז: 328301981)  [![לינקדין שלי](DBProject/328301981_321918484/שלב%20א/לינקדאין.png)](https://www.linkedin.com/in/maor-lev?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)
+👨‍💻 **מאור לוי** (ת.ז: 328301981)  [![לינקדין שלי](DBProject/328301981_321918484/שלב%20א/לינדקאין.png)](https://www.linkedin.com/in/maor-lev?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)
 
 
 
