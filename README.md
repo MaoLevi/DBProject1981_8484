@@ -66,7 +66,7 @@
 ### 1. **`createTables.sql`** – יצירת הטבלאות במסד הנתונים
 הפקודה הזו יוצרת את כל הטבלאות הדרושות למערכת:
 
-```sql
+
 CREATE TABLE Dish
 (
   Category VARCHAR(15) NOT NULL,
@@ -137,12 +137,10 @@ CREATE TABLE part_of_order
   FOREIGN KEY (Dish_ID) REFERENCES Dish(Dish_ID)
 );
 
----
 
 ### 2. **`dropTables.sql`** – מחיקת הטבלאות
 הפקודה הזו תמחק את כל הטבלאות שנוצרו:
 
-```sql
 DROP TABLE part_of_order;
 DROP TABLE RestOrder;
 DROP TABLE Payment;
@@ -156,7 +154,7 @@ DROP TABLE Dish;
 ### 3. **`insertTables.sql`** – הכנסת נתונים לטבלאות
 
 הפקודה הזו מכניסה נתונים לדוגמה לכל אחת מהטבלאות שנוצרו
-```sql
+
 -- הכנסת נתונים לטבלת Dish
 INSERT INTO Dish (Category, Price, Dish_ID, Dish_Name, Description, time_to_make)
 VALUES
@@ -211,7 +209,6 @@ VALUES
 
 הפקודה `selectAll.sql` מיועדת לשלוף את כל הנתונים מכל הטבלאות במסד הנתונים, והיא מספקת תמונה מלאה של כל המידע שנשמר במערכת. להלן כל פקודות ה-`SELECT` שנמצאות בקובץ זה:
 
-```sql
 -- הצגת כל הנתונים בטבלת Dish
 SELECT * FROM Dish;
 
