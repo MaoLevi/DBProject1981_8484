@@ -139,7 +139,7 @@
 ### 🐍 סקריפט פייתון
 פיתחנו סקריפט בפייתון שמכניס נתונים ישירות למסד הנתונים:
 
-<img src="DBProject/328301981_321918484/שלב%20א/PYCHARM.png" alt="צילום מסך PYCHARM" width="250"/>
+<img src="DBProject/328301981_321918484/שלב%20א/PYCHARM.png" alt="צילום מסך PYCHARM" width="180"/>
 
 
 ---
