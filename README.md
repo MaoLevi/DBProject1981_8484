@@ -125,21 +125,21 @@
 ### 🧩 Mockaroo
 השתמשנו באתר Mockaroo ליצירת נתונים אקראיים באיכות גבוהה:
 
-![Mockaroo Screenshot](DBProject/328301981_321918484/שלב א/MOCKAROO.png)
+![Mockaroo Screenshot](DBProject/328301981_321918484/שלב%20א/MOCKAROO.png)
 
 ---
 
 ### 🛠️ GenerateData
 באמצעות אתר GenerateData נוצרו טבלאות נתונים נוספות בהתאמה אישית:
 
-![GenerateData Screenshot](DBProject/328301981_321918484/שלב א/GENERTDATA.png)
+![GenerateData Screenshot](DBProject/328301981_321918484/שלב%20א/GENERTDATA.png)
 
 ---
 
 ### 🐍 סקריפט פייתון
 פיתחנו סקריפט בפייתון שמכניס נתונים ישירות למסד הנתונים:
 
-![Python Script Screenshot](DBProject/328301981_321918484/שלב א/PYCHARM.png)
+![Python Script Screenshot](DBProject/328301981_321918484/שלב%20א/PYCHARM.png)
 
 ---
 
