@@ -134,7 +134,7 @@
 באמצעות אתר GenerateData נוצרו טבלאות נתונים נוספות בהתאמה אישית:
 
 ![GenerateData Screenshot](DBProject/328301981_321918484/שלב%20א/GENERTDATA.png)
-![GenerateData Screenshot](DBProject/328301981_321918484/שלב%20א/הכנסת%20נתונים%20GENERTDATA.png)
+![GenerateData Screenshot](DBProject/328301981_321918484/שלב%20א/הכנסת%20נתוניםGENERTDATA.png)
 
 ---
 
