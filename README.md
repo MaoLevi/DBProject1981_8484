@@ -126,6 +126,7 @@
 השתמשנו באתר Mockaroo ליצירת נתונים אקראיים באיכות גבוהה:
 
 ![Mockaroo Screenshot](DBProject/328301981_321918484/שלב%20א/MOCKAROO.png)
+![Mockaroo Screenshot](DBProject/328301981_321918484/שלב%20א/הכנסת%20נתונים%20מוקקרו.png)
 
 ---
 
@@ -133,6 +134,7 @@
 באמצעות אתר GenerateData נוצרו טבלאות נתונים נוספות בהתאמה אישית:
 
 ![GenerateData Screenshot](DBProject/328301981_321918484/שלב%20א/GENERTDATA.png)
+![GenerateData Screenshot](DBProject/328301981_321918484/שלב%20א/הכנסת%20נתונים%20GENERTDATA.png)
 
 ---
 
