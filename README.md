@@ -136,7 +136,7 @@
 ![GenerateData Screenshot](DBProject/328301981_321918484/שלב%20א/GENERTDATA.png)
 
 ![GenerateData Screenshot](DBProject/328301981_321918484/שלב%20א/הכנסת%20נתונים%20GENERTDATA.png)
-שלב%20א/
+
 
 ---
 
