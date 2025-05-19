@@ -12,25 +12,43 @@
 
 המערכת מיועדת לניהול מסד נתונים עבור מסעדה. היא כוללת את כל המודולים הנדרשים כדי לנהל את הזמנות, תשלומים, עובדים ולקוחות בצורה אפקטיבית ומסודרת.
 
+---
 
-
-
+### 📑 תוכן עניינים
+1. [תיאור הארגון](#תיאור-הארגון)
+2. [פירוט הישויות](#פירוט-הישויות)
+3. [קשרים בין הישויות](#קשרים-בין-הישויות)
+4. [ניתוח נירמול – Third Normal Form (3NF)](#ניתוח-נירמול--third-normal-form-3nf)
+5. [התרשימים](#התרשימים)
+6. [הצגת שיטות הכנסת נתונים](#הצגת-שיטות-הכנסת-נתונים)
+7. [צילומי מסך](#צילומי-מסך)
+8. [הפקודות SQL](#הפקודות-sql)
+9. [הגיבוי והשחזור](#הגיבוי-והשחזור)
+10. [סיכום שלב א'](#סיכום-שלב-א)
+11. [שלב ב' – שאילתות מתקדמות, מגבלות, ועדכונים](#שלב-ב-–-שאילתות-מתקדמות-מגבלות-ועדכונים)
+    1. [קבצי שלב ב'](#קבצי-שלב-ב)
+    2. [דוגמאות למגבלות (Constraints)](#דוגמאות-למגבלות-constraints)
+    3. [דוגמאות לשאילתות SELECT מתקדמות](#דוגמאות-לשאילתות-select-מתקדמות)
+    4. [דוגמאות לעדכון (UPDATE) ומחיקה (DELETE)](#דוגמאות-לעדכון-update-ומחיקה-delete)
+    5. [ניהול טרנזקציות – Commit & Rollback](#ניהול-טרנזקציות--commit--rollback)
+    6. [סיכום שלב ב'](#סיכום-שלב-ב)
+12. [דרישות הדוח לשלב ב' – הצגה ויזואלית ודוגמאות](#דרישות-הדוח-לשלב-ב-–-הצגה-ויזואלית-ודוגמאות)
 
 ---
 
-### 📑 **תוכן עניינים**
-1. [ תיאור הארגון](#תיאור-הארגון)
-2. [התרשימים](#התרשימים)
-3. [צילומי מסך](#צילומי-מסך)
-4. [הפקודות SQL](#הפקודות-sql)
-5. [הגיבוי והשחזור](#הגיבוי-והשחזור)
-6. [סיכום](#סיכום)
+# 🟦 שלב א' – בניית בסיס הנתונים והגדרת ישויות
+
+### 📑 תוכן עניינים של שלב א'
+1. [פירוט הישויות](#פירוט-הישויות)
+2. [קשרים בין הישויות](#קשרים-בין-הישויות)
+3. [ניתוח נירמול – Third Normal Form (3NF)](#ניתוח-נירמול--third-normal-form-3nf)
+4. [התרשימים](#התרשימים)
+5. [הצגת שיטות הכנסת נתונים](#הצגת-שיטות-הכנסת-נתונים)
+6. [צילומי מסך](#צילומי-מסך)
+7. [הפקודות SQL](#הפקודות-sql)
+8. [סיכום שלב א'](#סיכום-שלב-א)
 
 ---
-
-
-
-
 
 # 🧑‍💻 פירוט הישויות
 
@@ -100,15 +118,11 @@
 
 
 
-
 # 🔗 קשרים בין הישויות
 
 הקשרים בין הישויות מאפשרים למערכת לנהל את כל תהליך ההזמנה, מעקב אחר תשלומים, חיבור בין לקוחות ומלצרים לשולחנות, וכל פרטי ההזמנות.
 
 ---
-
-
-
 
 
 
@@ -190,7 +204,6 @@
 
 
 
-
 ## 🗂️ **התרשימים**
 
 במערכת זו השתמשנו בכמה תרשימים חשובים:
@@ -265,7 +278,7 @@ tables = [
 #  פונקציה להמרת ערך לתוך SQL (מספרים, תאריכים, טקסט
 def format_value(val):
     val = val.strip()
-    if val == "":
+    if val == "NULL":
         return "NULL"
     try:
         float(val)  # לבדוק אם זה מספר
@@ -504,6 +517,249 @@ SELECT * FROM part_of_order;
 ```
 ---
 
+---
 
-### **📝 סיכום 📝**
-המערכת לניהול המסעדה מציעה פתרון מקיף שמחבר בין כל האלמנטים השונים במסעדה – ממנות תפריט, דרך תשלומים ועד ניהול עובדים ולקוחות. כל ישות במערכת מקושרת באופן ברור ומאורגן, מה שמאפשר לכל פונקציה לעבוד בצורה חלקה ומסודרת.
+# 🚀 שלב ב' – שאילתות מתקדמות, מגבלות, ועדכונים
+
+### 📑 תוכן עניינים של שלב ב'
+1. [קבצי שלב ב'](#קבצי-שלב-ב)
+2. [דוגמאות למגבלות (Constraints)](#דוגמאות-למגבלות-constraints)
+3. [דוגמאות לשאילתות SELECT מתקדמות](#דוגמאות-לשאילתות-select-מתקדמות)
+4. [דוגמאות לעדכון (UPDATE) ומחיקה (DELETE)](#דוגמאות-לעדכון-update-ומחיקה-delete)
+5. [ניהול טרנזקציות – Commit & Rollback](#ניהול-טרנזקציות--commit--rollback)
+6. [סיכום שלב ב'](#סיכום-שלב-ב)
+7. [דרישות הדוח לשלב ב' – הצגה ויזואלית ודוגמאות](#דרישות-הדוח-לשלב-ב--הצגה-ויזואלית-ודוגמאות)
+
+---
+
+בשלב ב' של הפרויקט העמקנו את העבודה עם מסד הנתונים, הוספנו מגבלות (Constraints), ביצענו שאילתות מורכבות, עדכונים, מחיקות, ולמדנו על ניהול טרנזקציות (Commit/Rollback). להלן פירוט מלא:
+
+## 📂 קבצי שלב ב'
+
+- **Constraints.sql** – הוספת מגבלות שלמות, בדיקות ערכים, ייחודיות, ערכי ברירת מחדל ועוד.
+- **SelectQueries.sql** – שאילתות מורכבות לשליפות מידע, חישובים, הצגות נתונים משולבים.
+- **UpdateQueries.sql** – עדכון נתונים חכם לפי תנאים, דינמיקה של סטטוסים, עדכון אוטומטי של שדות.
+- **DeleteQueries.sql** – מחיקות מותנות, ניקוי נתונים לא רלוונטיים.
+- **RollbackCommit/** – תיעוד תהליכי Commit ו-Rollback עם צילומי מסך.
+
+---
+
+## 🛡️ דוגמאות למגבלות (Constraints)
+
+```sql
+-- הגבלת זמן הכנה של מנה לשעה מקסימום
+ALTER TABLE "Dish"
+ADD CONSTRAINT check_time_to_make
+CHECK ("time_to_make" <= TIME '01:00:00');
+
+-- הגבלת אורך שם מנה ל-15 תווים
+ALTER TABLE "Dish"
+ADD CONSTRAINT check_dish_name_length
+CHECK (char_length("Dish_Name") <= 15);
+
+-- הגבלת תיאור מנה ל-250 תווים
+ALTER TABLE "Dish"
+ADD CONSTRAINT check_description_length
+CHECK (char_length("Description") <= 250);
+
+-- ערך ברירת מחדל לאמצעי תשלום: Cash
+ALTER TABLE "Payment"
+ALTER COLUMN "Payment_Method" SET DEFAULT 'Cash';
+
+-- תאריך תשלום לא עתידי
+ALTER TABLE "Payment"
+ADD CONSTRAINT check_payment_date_not_future
+CHECK ("Payment_Date" <= CURRENT_DATE);
+
+-- ניסיון עבודה של מלצר לא שלילי
+ALTER TABLE "Waiter"
+ADD CONSTRAINT check_experience_positive
+CHECK ("Work_Experience" >= 0);
+
+-- שם מלצר ייחודי
+ALTER TABLE "Waiter"
+ADD CONSTRAINT unique_waiter_name
+UNIQUE ("Full_Name");
+```
+
+---
+
+## 🔍 דוגמאות לשאילתות SELECT מתקדמות
+
+```sql
+-- שליפת מנות שלוקח להן מעל 20 דקות להכין, כולל שם הלקוח והמלצר
+SELECT 
+  "Dish"."Dish_Name", 
+  "Dish"."time_to_make", 
+  "Customer"."Full_Name" AS Customer, 
+  "Waiter"."Full_Name" AS Waiter
+FROM "RestOrder"
+JOIN "part_of_order" ON "RestOrder"."RestOrder_ID" = "part_of_order"."RestOrder_ID"
+JOIN "Dish" ON "Dish"."Dish_ID" = "part_of_order"."Dish_ID"
+JOIN "Customer" ON "Customer"."Customer_ID" = "RestOrder"."Customer_ID"
+LEFT JOIN "Waiter" ON "Waiter"."Waiter_ID" = "RestOrder"."Waiter_ID"
+WHERE "Dish"."time_to_make" > '00:20:00';
+
+-- חישוב הכנסה יומית
+SELECT 
+  TO_CHAR("RestOrder"."RestOrder_DateTime",'FMDay') AS "Day", 
+  SUM("RestOrder"."Total_price") AS "DailyRevenue"
+FROM "RestOrder"
+GROUP BY "Day"
+ORDER BY "DailyRevenue" DESC;
+
+-- לקוחות שהזמינו יותר ממנה אחת
+SELECT 
+  "Customer"."Full_Name", 
+  COUNT("part_of_order"."Dish_ID") AS "DishesOrdered"
+FROM "Customer"
+JOIN "RestOrder" ON "Customer"."Customer_ID" = "RestOrder"."Customer_ID"
+JOIN "part_of_order" ON "RestOrder"."RestOrder_ID" = "part_of_order"."RestOrder_ID"
+GROUP BY "Customer"."Full_Name"
+HAVING COUNT("part_of_order"."Dish_ID") > 1;
+```
+
+---
+
+## ✏️ דוגמאות לעדכון (UPDATE) ומחיקה (DELETE)
+
+```sql
+-- עדכון סטטוס שולחן לפנוי כאשר התשלום הושלם
+UPDATE "RestTable"
+SET "Status" = 'Available'
+WHERE "RestTable_ID" IN (
+  SELECT "RestOrder"."RestTable_ID"
+  FROM "RestOrder"
+  JOIN "Payment" ON "RestOrder"."Payment_ID" = "Payment"."Payment_ID"
+  WHERE "Payment"."Payment_Status" = 'Completed'
+);
+
+-- עדכון זמן הכנה רנדומלי לכל מנה
+UPDATE "Dish"
+SET time_to_make = DATE_TRUNC('minute', '00:00'::time + (RANDOM() * INTERVAL '60 minutes'))::time;
+
+-- מחיקת מנות שלא הוזמנו מעולם
+DELETE FROM "Dish"
+WHERE "Dish_ID" NOT IN (
+  SELECT DISTINCT "Dish_ID" FROM "part_of_order"
+);
+
+-- מחיקת לקוחות שלא ביצעו הזמנה
+DELETE FROM "Customer"
+WHERE "Customer_ID" NOT IN (
+  SELECT "Customer_ID" FROM "RestOrder"
+);
+```
+
+---
+
+## 🔄 ניהול טרנזקציות – Commit & Rollback
+
+בשלב ב' תרגלנו שמירה (Commit) וביטול (Rollback) של שינויים במסד הנתונים. להלן צילומי מסך מתהליך העבודה:
+
+<table><tr>
+<td><img src="DBProject/328301981_321918484/שלב ב/RollbackCommit/ביצוע%20COMMIT.png" width="200"/></td>
+<td><img src="DBProject/328301981_321918484/שלב ב/RollbackCommit/ביצוע%20לפני%20ROLLBACK.png" width="200"/></td>
+<td><img src="DBProject/328301981_321918484/שלב ב/RollbackCommit/ביצוע%20ROLLBACK.png" width="200"/></td>
+<td><img src="DBProject/328301981_321918484/שלב ב/RollbackCommit/צילום%20אחרי%20ROLLBACK.png" width="200"/></td>
+</tr>
+<tr>
+<td align="center">ביצוע Commit</td>
+<td align="center">לפני Rollback</td>
+<td align="center">ביצוע Rollback</td>
+<td align="center">לאחר Rollback</td>
+</tr></table>
+
+---
+
+## 📝 סיכום שלב ב'
+
+בשלב ב' חיזקנו את אמינות המערכת, הוספנו מגבלות לוגיות, ביצענו שאילתות מתקדמות, עדכונים ומחיקות חכמות, ולמדנו לנהל טרנזקציות בצורה מקצועית. כל אלו מבטיחים מסד נתונים איכותי, אמין, וקל לתחזוקה.
+
+---
+
+# 📑 דרישות הדוח לשלב ב' – הצגה ויזואלית ודוגמאות
+
+להלן פירוט הדרישות והמבנה המומלץ להצגת שלב ב' בדוח:
+
+## 🔎 שאילתות SELECT – דוגמאות, הסבר וצילומי מסך
+
+עבור כל אחת מ-8 השאילתות שבקובץ SelectQueries.sql:
+- **הסבר בעברית**: מה השאילתה עושה, מה המטרה שלה.
+- **צילום מסך של הרצת השאילתה** (לדוג' מתוך כלי SQL).
+- **צילום מסך של תוצאת השאילתה** (עד 5 שורות).
+
+> **דוגמה**  
+> **שאילתה:** שליפת כל המנות שלוקח להן מעל 20 דקות להכין, כולל שם הלקוח והמלצר.  
+> **צילום הרצה:**  
+> <img src="DBProject/328301981_321918484/שלב ב/SelectScreenshots/select1_run.png" width="400"/>  
+> **צילום תוצאה:**  
+> <img src="DBProject/328301981_321918484/שלב ב/SelectScreenshots/select1_result.png" width="400"/>
+
+(יש להוסיף כך עבור כל 8 השאילתות, עם הסבר, צילום הרצה וצילום תוצאה.)
+
+---
+
+## 🗑️ שאילתות DELETE ו-UPDATE – הסבר, צילום הרצה, צילום לפני/אחרי
+
+עבור כל אחת משאילתות ה-DELETE וה-UPDATE:
+- **הסבר בעברית**: מה השאילתה עושה.
+- **צילום מסך של הרצת השאילתה**.
+- **צילום מסך של בסיס הנתונים לפני העדכון**.
+- **צילום מסך של בסיס הנתונים אחרי העדכון**.
+
+> **דוגמה**  
+> **שאילתה:** מחיקת מנות שלא הוזמנו מעולם.  
+> **צילום הרצה:**  
+> <img src="DBProject/328301981_321918484/שלב ב/UpdateDeleteScreenshots/delete1_run.png" width="400"/>  
+> **לפני:**  
+> <img src="DBProject/328301981_321918484/שלב ב/UpdateDeleteScreenshots/delete1_before.png" width="400"/>  
+> **אחרי:**  
+> <img src="DBProject/328301981_321918484/שלב ב/UpdateDeleteScreenshots/delete1_after.png" width="400"/>
+
+---
+
+## 🛡️ אילוצים (Constraints) – תיאור, ניסיון הכנסת נתון שגוי, צילום שגיאה
+
+עבור כל אילוץ (Constraint) שהוגדר:
+- **תיאור השינוי**: מה האילוץ, למה הוא חשוב.
+- **צילום מסך של פקודת ALTER TABLE**.
+- **ניסיון להכניס נתון שסותר את האילוץ** (INSERT/UPDATE).
+- **צילום מסך של שגיאת ההרצה**.
+
+> **דוגמה**  
+> **אילוץ:** הגבלת זמן הכנה של מנה לשעה מקסימום.  
+> **צילום פקודה:**  
+> <img src="DBProject/328301981_321918484/שלב ב/ConstraintsScreenshots/constraint1_alter.png" width="400"/>  
+> **ניסיון הכנסת נתון שגוי:**  
+> <img src="DBProject/328301981_321918484/שלב ב/ConstraintsScreenshots/constraint1_insert_fail.png" width="400"/>  
+> **צילום שגיאה:**  
+> <img src="DBProject/328301981_321918484/שלב ב/ConstraintsScreenshots/constraint1_error.png" width="400"/>
+
+---
+
+## 🔄 דוגמאות Rollback ו-Commit – תיעוד מצב הבסיס בכל שלב
+
+- **הסבר קצר**: מה בוצע בכל שלב (לפני, אחרי Commit, אחרי Rollback).
+- **צילומי מסך**: מצב בסיס הנתונים בכל שלב.
+
+> **דוגמה**  
+> <table><tr>
+<td><img src="DBProject/328301981_321918484/שלב ב/RollbackCommit/ביצוע%20COMMIT.png" width="200"/></td>
+<td><img src="DBProject/328301981_321918484/שלב ב/RollbackCommit/ביצוע%20לפני%20ROLLBACK.png" width="200"/></td>
+<td><img src="DBProject/328301981_321918484/שלב ב/RollbackCommit/ביצוע%20ROLLBACK.png" width="200"/></td>
+<td><img src="DBProject/328301981_321918484/שלב ב/RollbackCommit/צילום%20אחרי%20ROLLBACK.png" width="200"/></td>
+</tr>
+<tr>
+<td align="center">ביצוע Commit</td>
+<td align="center">לפני Rollback</td>
+<td align="center">ביצוע Rollback</td>
+<td align="center">לאחר Rollback</td>
+</tr></table>
+
+---
+
+**הערה:**  
+יש להקפיד על שילוב הסברים בעברית, דוגמאות קוד, וצילומי מסך מקוריים מהפרויקט, לפי כל סעיף.
+
+---
