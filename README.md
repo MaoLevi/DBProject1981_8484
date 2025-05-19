@@ -16,6 +16,8 @@
 
 ### 📑 תוכן עניינים
 1. [תיאור הארגון](#תיאור-הארגון)
+
+# 🟦 שלב א' – בניית בסיס הנתונים והגדרת ישויות
 2. [פירוט הישויות](#פירוט-הישויות)
 3. [קשרים בין הישויות](#קשרים-בין-הישויות)
 4. [ניתוח נירמול – Third Normal Form (3NF)](#ניתוח-נירמול--third-normal-form-3nf)
@@ -25,14 +27,14 @@
 8. [הפקודות SQL](#הפקודות-sql)
 9. [הגיבוי והשחזור](#הגיבוי-והשחזור)
 10. [סיכום שלב א'](#סיכום-שלב-א)
-11. [שלב ב' – שאילתות מתקדמות, מגבלות, ועדכונים](#שלב-ב-–-שאילתות-מתקדמות-מגבלות-ועדכונים)
-    1. [קבצי שלב ב'](#קבצי-שלב-ב)
-    2. [דוגמאות למגבלות (Constraints)](#דוגמאות-למגבלות-constraints)
-    3. [דוגמאות לשאילתות SELECT מתקדמות](#דוגמאות-לשאילתות-select-מתקדמות)
-    4. [דוגמאות לעדכון (UPDATE) ומחיקה (DELETE)](#דוגמאות-לעדכון-update-ומחיקה-delete)
-    5. [ניהול טרנזקציות – Commit & Rollback](#ניהול-טרנזקציות--commit--rollback)
-    6. [סיכום שלב ב'](#סיכום-שלב-ב)
-12. [דרישות הדוח לשלב ב' – הצגה ויזואלית ודוגמאות](#דרישות-הדוח-לשלב-ב-–-הצגה-ויזואלית-ודוגמאות)
+
+# 🚀 שלב ב' – שאילתות מתקדמות, מגבלות, ועדכונים
+11. [קבצי שלב ב'](#קבצי-שלב-ב)
+12. [דוגמאות למגבלות (Constraints)](#דוגמאות-למגבלות-constraints)
+13. [דוגמאות לשאילתות SELECT מתקדמות](#דוגמאות-לשאילתות-select-מתקדמות)
+14. [דוגמאות לעדכון (UPDATE) ומחיקה (DELETE)](#דוגמאות-לעדכון-update-ומחיקה-delete)
+15. [ניהול טרנזקציות – Commit & Rollback](#ניהול-טרנזקציות--commit--rollback)
+16. [סיכום שלב ב'](#סיכום-שלב-ב)
 
 ---
 
@@ -528,7 +530,6 @@ SELECT * FROM part_of_order;
 4. [דוגמאות לעדכון (UPDATE) ומחיקה (DELETE)](#דוגמאות-לעדכון-update-ומחיקה-delete)
 5. [ניהול טרנזקציות – Commit & Rollback](#ניהול-טרנזקציות--commit--rollback)
 6. [סיכום שלב ב'](#סיכום-שלב-ב)
-7. [דרישות הדוח לשלב ב' – הצגה ויזואלית ודוגמאות](#דרישות-הדוח-לשלב-ב--הצגה-ויזואלית-ודוגמאות)
 
 ---
 
@@ -536,230 +537,130 @@ SELECT * FROM part_of_order;
 
 ## 📂 קבצי שלב ב'
 
-- **Constraints.sql** – הוספת מגבלות שלמות, בדיקות ערכים, ייחודיות, ערכי ברירת מחדל ועוד.
-- **SelectQueries.sql** – שאילתות מורכבות לשליפות מידע, חישובים, הצגות נתונים משולבים.
-- **UpdateQueries.sql** – עדכון נתונים חכם לפי תנאים, דינמיקה של סטטוסים, עדכון אוטומטי של שדות.
-- **DeleteQueries.sql** – מחיקות מותנות, ניקוי נתונים לא רלוונטיים.
-- **RollbackCommit/** – תיעוד תהליכי Commit ו-Rollback עם צילומי מסך.
+- **Constraints.sql** – קובץ זה מרכז את כל האילוצים שהוספנו לטבלאות במסד הנתונים, כולל בדיקות ערכים, ייחודיות, ערכי ברירת מחדל ועוד. כל אילוץ נועד להבטיח את תקינות הנתונים ולמנוע טעויות לוגיות.
+- **SelectQueries.sql** – קובץ זה כולל שאילתות מורכבות לשליפת מידע, חישובים, הצגות נתונים משולבים, ומאפשר ניתוחים מתקדמים על בסיס הנתונים.
+- **UpdateQueries.sql** – כאן מרוכזות פקודות לעדכון נתונים חכם לפי תנאים, דינמיקה של סטטוסים, עדכון אוטומטי של שדות ועוד.
+- **DeleteQueries.sql** – קובץ זה כולל מחיקות מותנות, ניקוי נתונים לא רלוונטיים, ושמירה על שלמות הנתונים.
+- **RollbackCommit/** – תיקייה זו מתעדת תהליכי Commit ו-Rollback עם צילומי מסך, המדגימים את ניהול הטרנזקציות במסד הנתונים.
 
 ---
 
-## 🛡️ דוגמאות למגבלות (Constraints)
+## 🛡️ דוגמאות למגבלות (Constraints) והסבר
 
+בשלב ב' הוספנו מגבלות (Constraints) לטבלאות במסד הנתונים כדי להבטיח תקינות לוגית של המידע. כל אילוץ נבחר בקפידה כדי למנוע טעויות נפוצות:
+
+- **הגבלת זמן הכנה של מנה לשעה מקסימום:**
+  - מונע הכנסת ערכים לא הגיוניים לשדה זמן הכנה.
+  - דוגמה: ניסיון להכניס מנה עם זמן הכנה של שעתיים יגרום לשגיאה.
+- **הגבלת אורך שם מנה ל-15 תווים:**
+  - מבטיח שמות קצרים וקריאים בתפריט.
+- **הגבלת תיאור מנה ל-250 תווים:**
+  - מונע תיאורים ארוכים מדי.
+- **ערך ברירת מחדל לאמצעי תשלום (Cash):**
+  - אם לא הוזן אמצעי תשלום, ייקבע אוטומטית 'Cash'.
+- **תאריך תשלום לא עתידי:**
+  - מונע טעויות של תאריכים שגויים.
+- **ניסיון עבודה של מלצר לא שלילי:**
+  - מונע הכנסת ערכים שליליים לשנות ניסיון.
+- **שם מלצר ייחודי:**
+  - מונע כפילויות של שמות עובדים.
+
+**המחשה:**
 ```sql
--- הגבלת זמן הכנה של מנה לשעה מקסימום
-ALTER TABLE "Dish"
-ADD CONSTRAINT check_time_to_make
-CHECK ("time_to_make" <= TIME '01:00:00');
-
--- הגבלת אורך שם מנה ל-15 תווים
-ALTER TABLE "Dish"
-ADD CONSTRAINT check_dish_name_length
-CHECK (char_length("Dish_Name") <= 15);
-
--- הגבלת תיאור מנה ל-250 תווים
-ALTER TABLE "Dish"
-ADD CONSTRAINT check_description_length
-CHECK (char_length("Description") <= 250);
-
--- ערך ברירת מחדל לאמצעי תשלום: Cash
-ALTER TABLE "Payment"
-ALTER COLUMN "Payment_Method" SET DEFAULT 'Cash';
-
--- תאריך תשלום לא עתידי
-ALTER TABLE "Payment"
-ADD CONSTRAINT check_payment_date_not_future
-CHECK ("Payment_Date" <= CURRENT_DATE);
-
--- ניסיון עבודה של מלצר לא שלילי
-ALTER TABLE "Waiter"
-ADD CONSTRAINT check_experience_positive
-CHECK ("Work_Experience" >= 0);
-
--- שם מלצר ייחודי
-ALTER TABLE "Waiter"
-ADD CONSTRAINT unique_waiter_name
-UNIQUE ("Full_Name");
+ALTER TABLE Dish ADD CONSTRAINT check_time_to_make CHECK (time_to_make <= TIME '01:00:00');
+-- ניסיון להכניס מנה עם זמן הכנה 02:00:00 יגרום לשגיאה
 ```
 
 ---
 
-## 🔍 דוגמאות לשאילתות SELECT מתקדמות
+## 🔍 דוגמאות לשאילתות SELECT מתקדמות והסבר
 
+בשלב ב' נכתבו שאילתות מתקדמות שמאפשרות ניתוחים חכמים על בסיס הנתונים:
+
+- **שליפת מנות שלוקח להן מעל 20 דקות להכין, כולל שם הלקוח והמלצר:**
+  - מאפשרת למנהל לזהות מנות איטיות ולשפר תהליכים.
 ```sql
--- שליפת מנות שלוקח להן מעל 20 דקות להכין, כולל שם הלקוח והמלצר
-SELECT 
-  "Dish"."Dish_Name", 
-  "Dish"."time_to_make", 
-  "Customer"."Full_Name" AS Customer, 
-  "Waiter"."Full_Name" AS Waiter
-FROM "RestOrder"
-JOIN "part_of_order" ON "RestOrder"."RestOrder_ID" = "part_of_order"."RestOrder_ID"
-JOIN "Dish" ON "Dish"."Dish_ID" = "part_of_order"."Dish_ID"
-JOIN "Customer" ON "Customer"."Customer_ID" = "RestOrder"."Customer_ID"
-LEFT JOIN "Waiter" ON "Waiter"."Waiter_ID" = "RestOrder"."Waiter_ID"
-WHERE "Dish"."time_to_make" > '00:20:00';
-
--- חישוב הכנסה יומית
-SELECT 
-  TO_CHAR("RestOrder"."RestOrder_DateTime",'FMDay') AS "Day", 
-  SUM("RestOrder"."Total_price") AS "DailyRevenue"
-FROM "RestOrder"
-GROUP BY "Day"
-ORDER BY "DailyRevenue" DESC;
-
--- לקוחות שהזמינו יותר ממנה אחת
-SELECT 
-  "Customer"."Full_Name", 
-  COUNT("part_of_order"."Dish_ID") AS "DishesOrdered"
-FROM "Customer"
-JOIN "RestOrder" ON "Customer"."Customer_ID" = "RestOrder"."Customer_ID"
-JOIN "part_of_order" ON "RestOrder"."RestOrder_ID" = "part_of_order"."RestOrder_ID"
-GROUP BY "Customer"."Full_Name"
-HAVING COUNT("part_of_order"."Dish_ID") > 1;
+SELECT Dish.Dish_Name, Dish.time_to_make, Customer.Full_Name AS Customer, Waiter.Full_Name AS Waiter
+FROM RestOrder
+JOIN part_of_order ON RestOrder.RestOrder_ID = part_of_order.RestOrder_ID
+JOIN Dish ON Dish.Dish_ID = part_of_order.Dish_ID
+JOIN Customer ON Customer.Customer_ID = RestOrder.Customer_ID
+LEFT JOIN Waiter ON Waiter.Waiter_ID = RestOrder.Waiter_ID
+WHERE Dish.time_to_make > '00:20:00';
+```
+- **חישוב הכנסה יומית:**
+  - מאפשר ניתוח רווחיות לפי ימים.
+```sql
+SELECT TO_CHAR(RestOrder.RestOrder_DateTime,'FMDay') AS Day, SUM(RestOrder.Total_price) AS DailyRevenue
+FROM RestOrder
+GROUP BY Day
+ORDER BY DailyRevenue DESC;
+```
+- **לקוחות שהזמינו יותר ממנה אחת:**
+  - מסייע בזיהוי לקוחות קבועים/גדולים.
+```sql
+SELECT Customer.Full_Name, COUNT(part_of_order.Dish_ID) AS DishesOrdered
+FROM Customer
+JOIN RestOrder ON Customer.Customer_ID = RestOrder.Customer_ID
+JOIN part_of_order ON RestOrder.RestOrder_ID = part_of_order.RestOrder_ID
+GROUP BY Customer.Full_Name
+HAVING COUNT(part_of_order.Dish_ID) > 1;
 ```
 
 ---
 
-## ✏️ דוגמאות לעדכון (UPDATE) ומחיקה (DELETE)
+## ✏️ דוגמאות לעדכון (UPDATE) ומחיקה (DELETE) והסבר
 
+- **עדכון סטטוס שולחן לפנוי כאשר התשלום הושלם:**
+  - מבטיח ששולחנות יתפנו אוטומטית לאחר תשלום.
 ```sql
--- עדכון סטטוס שולחן לפנוי כאשר התשלום הושלם
-UPDATE "RestTable"
-SET "Status" = 'Available'
-WHERE "RestTable_ID" IN (
-  SELECT "RestOrder"."RestTable_ID"
-  FROM "RestOrder"
-  JOIN "Payment" ON "RestOrder"."Payment_ID" = "Payment"."Payment_ID"
-  WHERE "Payment"."Payment_Status" = 'Completed'
+UPDATE RestTable
+SET Status = 'Available'
+WHERE RestTable_ID IN (
+  SELECT RestOrder.RestTable_ID
+  FROM RestOrder
+  JOIN Payment ON RestOrder.Payment_ID = Payment.Payment_ID
+  WHERE Payment.Payment_Status = 'Completed'
 );
-
--- עדכון זמן הכנה רנדומלי לכל מנה
-UPDATE "Dish"
+```
+- **עדכון זמן הכנה רנדומלי לכל מנה:**
+  - מאפשר בדיקות עומס וסטטיסטיקות שונות.
+```sql
+UPDATE Dish
 SET time_to_make = DATE_TRUNC('minute', '00:00'::time + (RANDOM() * INTERVAL '60 minutes'))::time;
-
--- מחיקת מנות שלא הוזמנו מעולם
-DELETE FROM "Dish"
-WHERE "Dish_ID" NOT IN (
-  SELECT DISTINCT "Dish_ID" FROM "part_of_order"
+```
+- **מחיקת מנות שלא הוזמנו מעולם:**
+  - מנקה נתונים לא רלוונטיים.
+```sql
+DELETE FROM Dish
+WHERE Dish_ID NOT IN (
+  SELECT DISTINCT Dish_ID FROM part_of_order
 );
-
--- מחיקת לקוחות שלא ביצעו הזמנה
-DELETE FROM "Customer"
-WHERE "Customer_ID" NOT IN (
-  SELECT "Customer_ID" FROM "RestOrder"
+```
+- **מחיקת לקוחות שלא ביצעו הזמנה:**
+  - שומר על מסד נתונים נקי.
+```sql
+DELETE FROM Customer
+WHERE Customer_ID NOT IN (
+  SELECT Customer_ID FROM RestOrder
 );
 ```
 
 ---
 
-## 🔄 ניהול טרנזקציות – Commit & Rollback
+## 🔄 ניהול טרנזקציות – Commit & Rollback והסבר
 
-בשלב ב' תרגלנו שמירה (Commit) וביטול (Rollback) של שינויים במסד הנתונים. להלן צילומי מסך מתהליך העבודה:
+בשלב ב' תרגלנו שמירה (Commit) וביטול (Rollback) של שינויים במסד הנתונים. כך ניתן להבטיח שכל שינוי קריטי יתבצע בשלמותו או יתבטל לחלוטין במקרה של תקלה.
 
-<table><tr>
-<td><img src="DBProject/328301981_321918484/שלב ב/RollbackCommit/ביצוע%20COMMIT.png" width="200"/></td>
-<td><img src="DBProject/328301981_321918484/שלב ב/RollbackCommit/ביצוע%20לפני%20ROLLBACK.png" width="200"/></td>
-<td><img src="DBProject/328301981_321918484/שלב ב/RollbackCommit/ביצוע%20ROLLBACK.png" width="200"/></td>
-<td><img src="DBProject/328301981_321918484/שלב ב/RollbackCommit/צילום%20אחרי%20ROLLBACK.png" width="200"/></td>
-</tr>
-<tr>
-<td align="center">ביצוע Commit</td>
-<td align="center">לפני Rollback</td>
-<td align="center">ביצוע Rollback</td>
-<td align="center">לאחר Rollback</td>
-</tr></table>
+- **Commit:** שומר את כל השינויים שבוצעו בטרנזקציה.
+- **Rollback:** מבטל את כל השינויים שבוצעו מאז ה-Commit האחרון.
+
+צילומי מסך ממחישים את התהליך: לפני שינוי, אחרי Commit, לפני Rollback, ואחרי Rollback.
 
 ---
 
 ## 📝 סיכום שלב ב'
 
 בשלב ב' חיזקנו את אמינות המערכת, הוספנו מגבלות לוגיות, ביצענו שאילתות מתקדמות, עדכונים ומחיקות חכמות, ולמדנו לנהל טרנזקציות בצורה מקצועית. כל אלו מבטיחים מסד נתונים איכותי, אמין, וקל לתחזוקה.
-
----
-
-# 📑 דרישות הדוח לשלב ב' – הצגה ויזואלית ודוגמאות
-
-להלן פירוט הדרישות והמבנה המומלץ להצגת שלב ב' בדוח:
-
-## 🔎 שאילתות SELECT – דוגמאות, הסבר וצילומי מסך
-
-עבור כל אחת מ-8 השאילתות שבקובץ SelectQueries.sql:
-- **הסבר בעברית**: מה השאילתה עושה, מה המטרה שלה.
-- **צילום מסך של הרצת השאילתה** (לדוג' מתוך כלי SQL).
-- **צילום מסך של תוצאת השאילתה** (עד 5 שורות).
-
-> **דוגמה**  
-> **שאילתה:** שליפת כל המנות שלוקח להן מעל 20 דקות להכין, כולל שם הלקוח והמלצר.  
-> **צילום הרצה:**  
-> <img src="DBProject/328301981_321918484/שלב ב/SelectScreenshots/select1_run.png" width="400"/>  
-> **צילום תוצאה:**  
-> <img src="DBProject/328301981_321918484/שלב ב/SelectScreenshots/select1_result.png" width="400"/>
-
-(יש להוסיף כך עבור כל 8 השאילתות, עם הסבר, צילום הרצה וצילום תוצאה.)
-
----
-
-## 🗑️ שאילתות DELETE ו-UPDATE – הסבר, צילום הרצה, צילום לפני/אחרי
-
-עבור כל אחת משאילתות ה-DELETE וה-UPDATE:
-- **הסבר בעברית**: מה השאילתה עושה.
-- **צילום מסך של הרצת השאילתה**.
-- **צילום מסך של בסיס הנתונים לפני העדכון**.
-- **צילום מסך של בסיס הנתונים אחרי העדכון**.
-
-> **דוגמה**  
-> **שאילתה:** מחיקת מנות שלא הוזמנו מעולם.  
-> **צילום הרצה:**  
-> <img src="DBProject/328301981_321918484/שלב ב/UpdateDeleteScreenshots/delete1_run.png" width="400"/>  
-> **לפני:**  
-> <img src="DBProject/328301981_321918484/שלב ב/UpdateDeleteScreenshots/delete1_before.png" width="400"/>  
-> **אחרי:**  
-> <img src="DBProject/328301981_321918484/שלב ב/UpdateDeleteScreenshots/delete1_after.png" width="400"/>
-
----
-
-## 🛡️ אילוצים (Constraints) – תיאור, ניסיון הכנסת נתון שגוי, צילום שגיאה
-
-עבור כל אילוץ (Constraint) שהוגדר:
-- **תיאור השינוי**: מה האילוץ, למה הוא חשוב.
-- **צילום מסך של פקודת ALTER TABLE**.
-- **ניסיון להכניס נתון שסותר את האילוץ** (INSERT/UPDATE).
-- **צילום מסך של שגיאת ההרצה**.
-
-> **דוגמה**  
-> **אילוץ:** הגבלת זמן הכנה של מנה לשעה מקסימום.  
-> **צילום פקודה:**  
-> <img src="DBProject/328301981_321918484/שלב ב/ConstraintsScreenshots/constraint1_alter.png" width="400"/>  
-> **ניסיון הכנסת נתון שגוי:**  
-> <img src="DBProject/328301981_321918484/שלב ב/ConstraintsScreenshots/constraint1_insert_fail.png" width="400"/>  
-> **צילום שגיאה:**  
-> <img src="DBProject/328301981_321918484/שלב ב/ConstraintsScreenshots/constraint1_error.png" width="400"/>
-
----
-
-## 🔄 דוגמאות Rollback ו-Commit – תיעוד מצב הבסיס בכל שלב
-
-- **הסבר קצר**: מה בוצע בכל שלב (לפני, אחרי Commit, אחרי Rollback).
-- **צילומי מסך**: מצב בסיס הנתונים בכל שלב.
-
-> **דוגמה**  
-> <table><tr>
-<td><img src="DBProject/328301981_321918484/שלב ב/RollbackCommit/ביצוע%20COMMIT.png" width="200"/></td>
-<td><img src="DBProject/328301981_321918484/שלב ב/RollbackCommit/ביצוע%20לפני%20ROLLBACK.png" width="200"/></td>
-<td><img src="DBProject/328301981_321918484/שלב ב/RollbackCommit/ביצוע%20ROLLBACK.png" width="200"/></td>
-<td><img src="DBProject/328301981_321918484/שלב ב/RollbackCommit/צילום%20אחרי%20ROLLBACK.png" width="200"/></td>
-</tr>
-<tr>
-<td align="center">ביצוע Commit</td>
-<td align="center">לפני Rollback</td>
-<td align="center">ביצוע Rollback</td>
-<td align="center">לאחר Rollback</td>
-</tr></table>
-
----
-
-**הערה:**  
-יש להקפיד על שילוב הסברים בעברית, דוגמאות קוד, וצילומי מסך מקוריים מהפרויקט, לפי כל סעיף.
 
 ---
