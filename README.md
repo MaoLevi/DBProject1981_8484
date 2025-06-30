@@ -788,7 +788,7 @@ SELECT * FROM view_restaurant;
 ```
 
 **פלט לדוגמה:**
-![פלט SELECT * FROM view_restaurant](DBProject/328301981_321918484/שלב ג/select from view_restaurant PAYMENT METHOD.png)
+<img src="DBProject/328301981_321918484/שלב%20ג/select%20from%20view_restaurant%20PAYMENT%20METHOD.png" alt="פלט SELECT * FROM view_restaurant" width="500"/>
 
 ---
 
@@ -808,7 +808,7 @@ SELECT * FROM view_restaurant;
 ```
 
 **פלט לדוגמה:**
-![פלט SELECT * FROM view_restaurant](DBProject/328301981_321918484/שלב ג/select from view_restaurant TOTAL PRICE.png)
+<img src="DBProject/328301981_321918484/שלב%20ג/select%20from%20view_restaurant%20TOTAL%20PRICE.png" alt="פלט SELECT * FROM view_restaurant" width="500"/>
 
 ---
 
@@ -828,7 +828,7 @@ SELECT * FROM crew_name;
 ```
 
 **פלט לדוגמה:**
-![פלט SELECT * FROM crew_name](DBProject/328301981_321918484/שלב ג/SELECT crew_name .png)
+<img src="DBProject/328301981_321918484/שלב%20ג/SELECT%20crew_name%20.png" alt="פלט SELECT * FROM crew_name" width="500"/>
 
 ---
 
