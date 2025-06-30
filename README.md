@@ -848,7 +848,7 @@ SELECT * FROM researcher_name;
 ```
 
 **פלט לדוגמה:**
-![פלט SELECT * FROM researcher_name](DBProject/328301981_321918484/שלב ג/select researcher_name.png)
+<img src="DBProject/328301981_321918484/שלב%20ג/select%20researcher_name.png" alt="פלט SELECT * FROM researcher_name" width="500"/>
 
 ---
 
