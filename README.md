@@ -668,7 +668,7 @@ WHERE Customer_ID NOT IN (
   <tr>
     <td align="center"><b>1. מצב התחלתי – לפני ביצוע שינוי</b><br>
     <span style="font-size:90%">כך נראים הנתונים לפני ביצוע פעולה כלשהי:</span><br>
-    <img src="DBProject/328301981_321918484/שלב ב/RollbackCommit/ביצוע לפני ROLLBACK.png" width="400"/></td>
+    <img src="DBProject/328301981_321918484/שלב ב/RollbackCommit/ביצוע לפני Rולבק.png" width="400"/></td>
     <td align="center"><b>2. ביצוע שינוי ושמירה (Commit)</b><br>
     <span style="font-size:90%">לאחר ביצוע שינוי בנתונים, מבצעים Commit כדי לשמור את השינויים במסד הנתונים:</span><br>
     <img src="DBProject/328301981_321918484/שלב ב/RollbackCommit/ביצוע COMMIT.png" width="400"/></td>
@@ -952,9 +952,9 @@ COMMIT;
 לכל תוכנית צורפו צילומי מסך של הפעלה מוצלחת, הדפסות, חריגות, או עדכון נתונים – ראו בתיקיית שלב ד'.
 
 **הפעלה של main_program_1.sql:**
-![פלט main_program_1](DBProject/328301981_321918484/שלב ד/main1.png)
+<img src="DBProject/328301981_321918484/שלב%20ד/main1.png" alt="פלט main_program_1" width="500"/>
 
 **הפעלה של main_program_2.sql:**
-![פלט main_program_2](DBProject/328301981_321918484/שלב ד/main2.png)
+<img src="DBProject/328301981_321918484/שלב%20ד/main2.png" alt="פלט main_program_2" width="500"/>
 
 ---
