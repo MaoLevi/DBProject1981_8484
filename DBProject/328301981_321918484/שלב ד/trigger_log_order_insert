@@ -1,0 +1,19 @@
+CREATE TABLE IF NOT EXISTS log_orders (
+    log_id SERIAL PRIMARY KEY,
+    order_id INT,
+    log_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE OR REPLACE FUNCTION trg_log_order_insert()
+RETURNS TRIGGER AS $$
+BEGIN
+    INSERT INTO log_orders(order_id)
+    VALUES (NEW."RestOrder_ID");
+    RETURN NEW;
+END;
+$$ LANGUAGE plpgsql;
+
+CREATE TRIGGER trigger_log_order_insert
+AFTER INSERT ON "RestOrder"
+FOR EACH ROW
+EXECUTE FUNCTION trg_log_order_insert();

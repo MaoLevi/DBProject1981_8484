@@ -1,0 +1,21 @@
+CREATE OR REPLACE FUNCTION trg_check_table_capacity()
+RETURNS TRIGGER AS $$
+DECLARE
+    max_capacity INT;
+BEGIN
+    SELECT "Seats" INTO max_capacity
+    FROM "RestTable"
+    WHERE "RestTable_ID" = NEW."RestTable_ID";
+
+    -- דוגמה לבדיקה לפי סכום כולל בהזמנה (אם זה רלוונטי)
+    IF NEW."Total_price" > 0 AND NEW."Total_price" > max_capacity * 100 THEN
+        RAISE EXCEPTION 'חריגה מקיבולת תקציבית';
+    END IF;
+    RETURN NEW;
+END;
+$$ LANGUAGE plpgsql;
+
+CREATE TRIGGER trigger_check_table_capacity
+BEFORE INSERT ON "RestOrder"
+FOR EACH ROW
+EXECUTE FUNCTION trg_check_table_capacity();

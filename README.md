@@ -38,6 +38,12 @@
     2. [החלטות אינטגרציה](#החלטות-אינטגרציה)
     3. [הסבר מילולי של תהליך האינטגרציה והפקודות](#הסבר-מילולי-של-תהליך-האטגרציה-והפקודות)
     4. [מבטים (Views) – תיאור, קוד, דוגמת SELECT ופלט](#מבטים-views--תיאור-קוד-דוגמת-select-ופלט)
+5. 🛠️ שלב ד' – פונקציות, פרוצדורות, טריגרים ותוכניות עזר
+    1. [פונקציות (Functions)](#פונקציות-functions)
+    2. [פרוצדורות (Procedures)](#פרוצדורות-procedures)
+    3. [טריגרים (Triggers)](#טריגרים-triggers)
+    4. [תוכניות עזר (Main Programs)](#תוכניות-עזר-main-programs)
+    5. [הוכחות וצילומי מסך](#הוכחות-וצילומי-מסך)
 
 ---
 
@@ -853,5 +859,102 @@ SELECT * FROM researcher_name;
 ---
 
 > לכל מבט מוצג תיאור, קוד יצירה, דוגמת SELECT, ופלט אמיתי מצילום מסך. ניתן להוסיף מבטים נוספים או להרחיב הסברים לפי הצורך.
+
+---
+
+# 🛠️ שלב ד' – פונקציות, פרוצדורות, טריגרים ותוכניות עזר
+
+### 📑 תוכן עניינים של שלב ד'
+1. [פונקציות (Functions)](#פונקציות-functions)
+2. [פרוצדורות (Procedures)](#פרוצדורות-procedures)
+3. [טריגרים (Triggers)](#טריגרים-triggers)
+4. [תוכניות עזר (Main Programs)](#תוכניות-עזר-main-programs)
+5. [הוכחות וצילומי מסך](#הוכחות-וצילומי-מסך)
+
+---
+
+## פונקציות (Functions)
+
+בשלב זה הוספו פונקציות שונות למסד הנתונים, אשר מבצעות חישובים או פעולות מסוימות על הנתונים.
+
+### דוגמה לפונקציה: חישוב סך ההכנסות
+```sql
+CREATE FUNCTION calculate_total_revenue()
+RETURNS NUMERIC AS
+$$
+DECLARE
+  total_revenue NUMERIC;
+BEGIN
+  SELECT SUM(Total_price) INTO total_revenue FROM RestOrder;
+  RETURN total_revenue;
+END;
+$$ LANGUAGE plpgsql;
+```
+
+---
+
+## פרוצדורות (Procedures)
+
+פרוצדורות הן קבוצות פקודות SQL שמבוצעות יחד כיחידה אחת. בפרויקט זה, פרוצדורות משמשות לביצוע פעולות מורכבות יותר שכוללות מספר שלבים.
+
+### דוגמה לפרוצדורה: עדכון סטטוס הזמנה
+```sql
+CREATE PROCEDURE update_order_status(IN order_id INT, IN new_status VARCHAR(10))
+LANGUAGE plpgsql
+AS $$
+BEGIN
+  UPDATE RestOrder
+  SET Status0 = new_status
+  WHERE Order_ID = order_id;
+END;
+$$;
+```
+
+---
+
+## טריגרים (Triggers)
+
+טריגרים הם פקודות שמופעלות אוטומטית על ידי מערכת מסד הנתונים כאשר מתבצעת פעולה מסוימת על טבלה (כמו הוספה, עדכון או מחיקה של נתון).
+
+### דוגמה לטריגר: עדכון אוטומטי של תאריך הזמנה
+```sql
+CREATE TRIGGER update_order_date
+BEFORE UPDATE ON RestOrder
+FOR EACH ROW
+EXECUTE FUNCTION update_order_date_function();
+```
+
+---
+
+## תוכניות עזר ראשיות (Main Programs)
+
+בשלב זה פותחו תוכניות עזר שמבצעות סדרת פעולות במסד הנתונים, כמו הכנסת נתונים, עדכון סטטוסים, או חישוב סכומים.
+
+### דוגמה לתוכנית עזר ראשית: ניהול הזמנה חדשה
+```sql
+BEGIN;
+
+-- הוספת הזמנה חדשה
+INSERT INTO RestOrder (Status0, Total_price, Order_DateTime, Customer_ID, Waiter_ID, Table_ID, Payment_ID)
+VALUES ('New', 0, NOW(), 1, 1, 1, DEFAULT);
+
+-- חישוב סך כל המנות בהזמנה
+UPDATE RestOrder
+SET Total_price = (SELECT SUM(Price) FROM Dish WHERE Dish_ID IN (SELECT Dish_ID FROM part_of_order WHERE Order_ID = NEW.Order_ID))
+WHERE Order_ID = NEW.Order_ID;
+
+COMMIT;
+```
+
+---
+
+## 6. הוכחות וצילומי מסך
+לכל תוכנית צורפו צילומי מסך של הפעלה מוצלחת, הדפסות, חריגות, או עדכון נתונים – ראו בתיקיית שלב ד'.
+
+**הפעלה של main_program_1.sql:**
+![פלט main_program_1](DBProject/328301981_321918484/שלב ד/main1.png)
+
+**הפעלה של main_program_2.sql:**
+![פלט main_program_2](DBProject/328301981_321918484/שלב ד/main2.png)
 
 ---
